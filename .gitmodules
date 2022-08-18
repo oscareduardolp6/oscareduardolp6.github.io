@@ -1,4 +1,0 @@
-[submodule "themes/hugo-profile"]
-	path = themes/hugo-profile
-	url = https://github.com/oscareduardolp6/hugo-profile.git
-	branch = my-changes
