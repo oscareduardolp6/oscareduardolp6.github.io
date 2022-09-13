@@ -283,7 +283,7 @@ params:
   contact:
     title: Contacto
     enable: true
-    content: No dudes en mandarme un correo para cualquier tema que queiras ver conmigo :) 
+    content: No dudes en mandarme un correo para cualquier tema que quieras ver conmigo :) 
     email: oscareduardolp6@gmail.com
     btnName: Contactame
 
