@@ -284,7 +284,7 @@ languages:
       image: "/images/me.jpg"
       content: |- 
         Originario de *Naucalpan, Estado de México*, viví un tiempo en 
-        *Monterrey, Nuevo León* y desde hace **nueve años** vivo en *León, Guanajuato*. 
+        *Monterrey, Nuevo León* y desde hace **catorce años** vivo en *León, Guanajuato*. 
 
         Desde jovén mis padres me inculcaron el interés por saber los detalles de 
         cómo funcionan las cosas, desde las *computadoras* hasta las 
@@ -436,7 +436,7 @@ languages:
               url: https://github.com/oscareduardolp6/Owl_Sales_Point_Back 
               tooltip: Backend 
         - title: "Entrenador de memoria"
-          content: "Proyecto hecho mejorar mi memoria, la idea es recordar cierto
+          content: "Proyecto hecho para mejorar mi memoria, la idea es recordar cierto
           numero de palabras en orden, para después repetirlas en el mismo orden. 
           El programa nos dirá si lo hemos hecho correctamente o si hemos fallado,
           para mejorar el resultado, se nos pregunta si creemos que podemos recordar 
