@@ -28,11 +28,11 @@ Menus:
       title: Educación
       url: /#education
       wight: 1
-    - identifier: achievements
-      name: Logros
-      title: Logros
-      url: /#achievements
-      wight: 1
+    # - identifier: achievements
+    #   name: Logros
+    #   title: Logros
+    #   url: /#achievements
+    #   wight: 1
     - identifier: contact
       name: Contacto
       title: Contacto
@@ -43,11 +43,11 @@ Menus:
       title: Proyectos
       url: /#projects
       wight: 1
-    - identifier: blog 
-      name: Blog
-      title: Blog posts 
-      url: /blogs
-      weight: 1 
+    # - identifier: blog 
+    #   name: Blog
+    #   title: Blog posts 
+    #   url: /blogs
+    #   weight: 1 
       
 defaultContentLanguage: es
 
