@@ -165,7 +165,7 @@ languages:
             - .NET 
             - React With Typescript 
             - Progress 4GL 
-            - SQL 
+            - SQL  
 
         - job: ".Net & Winforms Developer"
           company: "IROX IT"
