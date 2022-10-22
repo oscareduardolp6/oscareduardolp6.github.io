@@ -56,6 +56,34 @@ languages:
     languageName: English
     weight: 2 
     description: Oscar Lopez Portfolio
+    Menus: 
+      main: 
+        - identifier: about 
+          name: About me 
+          title: About me 
+          url: /en/#about
+          wight: 1
+        - identifier: experience 
+          name: Experience 
+          title: Experiencia 
+          url: /en/#experience
+          wight: 2
+        - identifier: education 
+          name: Education 
+          title: Education 
+          url: /en/#experience
+          wight: 3
+        - identifier: contact 
+          name: Contact 
+          title: Contact 
+          url: /en/#contact
+          wight: 4
+        - identifier: projects 
+          name: Projects 
+          title: Projects 
+          url: /en/#projects
+          wight: 5
+        
     hero: 
       enable: true
       intro: "Hi, I'm"
