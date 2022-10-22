@@ -65,7 +65,7 @@ languages:
           wight: 1
         - identifier: experience 
           name: Experience 
-          title: Experiencia 
+          title: Experience 
           url: /en/#experience
           wight: 2
         - identifier: education 
@@ -83,7 +83,6 @@ languages:
           title: Projects 
           url: /en/#projects
           wight: 5
-        
     hero: 
       enable: true
       intro: "Hi, I'm"
@@ -96,8 +95,8 @@ languages:
       image: /profile.jpg
       button:
         enable: true
-        name: "CV"
-        url: "/docs/CV.pdf"
+        name: "Resume"
+        url: "/docs/Resume.pdf"
         download: true 
       socialLinks: 
         fontAwesomeIcons: 
