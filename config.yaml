@@ -118,7 +118,7 @@ languages:
         enable: true 
         title: "Technologies"
         items: 
-          - "CSS / Sass"
+          - "Design Patters"
           - "React (With Typescript)"
           - "Angular / AngularJS"
           - ".NET with C# & VB"
@@ -326,7 +326,7 @@ languages:
         enable: true 
         title: "Técnologías"
         items: 
-          - "CSS / Sass"
+          - "Patrones de diseño"
           - "React (Con Typescript)"
           - "Angular / AngularJS"
           - ".NET con C# & VB"
