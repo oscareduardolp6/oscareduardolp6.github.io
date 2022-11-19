@@ -1,0 +1,188 @@
+.glass-player {
+  /* From https://css.glass */
+  background: rgba(35, 47, 183, 0.36);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(46, 126, 255, 0.5);
+}
+
+
+.grid-player {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 0.3fr) 0.6fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-areas: 
+    "cover cover title title title . ."
+    "cover cover artist artist artist artist artist"
+    ". . album  album  album album album"
+    "progressbar progressbar progressbar progressbar progressbar progressbar progressbar"
+    "init-time . . . . . final-time"
+    "love-logo random prev play next repeat menu";
+  color: #dadadae4; 
+}
+
+.grid-player > img { 
+  grid-area: cover; 
+  /* width: 14.5em; */
+  width: 69%;
+  margin: 10%;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  gap: 0px;
+}
+
+.grid-player > h1 {
+  grid-area: title; 
+  font-size: 1.3em;
+  margin-top: 10%;
+  margin-left: 1em;
+}
+
+.song-album {
+  grid-area: artist;
+  font-size: 1.1em;
+  margin-left: 1em;
+}
+
+.song-artist { 
+  grid-area: album;
+  font-size: 1.1em;
+  margin-left: 1em;
+  align-self: start;
+}
+
+main .center {
+  width: 50%;
+  place-self: center;
+  height: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .center {
+    width: 80% !important;
+    height: 70% !important;
+    z-index: 4;
+  }
+  .grid-player { 
+    display: grid;
+    /* grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr); */
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas: 
+      "cover cover cover cover cover"
+      "cover cover cover cover cover"
+      ". . . . ."
+      ". . . . ."
+      "title title title title title"
+      "initial-time progressbar progressbar progressbar final-time"
+      "info prev play next repeat"; 
+  }
+  .grid-player > img { 
+    max-height: 250px;
+    max-width: 250px;
+    margin-left: 3.2em;
+  }
+  .grid-player > h1 {
+    grid-area: title;
+    margin-left: 3em;
+  }
+  .song-album {
+    display: none;
+  }
+  .song-artist { 
+    display: none;
+  }
+
+  input[type=range] {
+    grid-row-start: initial-time !important;
+    margin-left: 2em;
+    width: 83%;
+    --advance: 16%
+  }
+
+  .range-slider > span {
+    position: relative;
+    background-color: white;
+    border-radius: 3px;
+    width: 15px;
+    color: black; 
+    left: -1em; 
+  }
+
+  .range-slider > span :last-child {
+    grid-area: final-time;
+  }
+
+  
+  .time {
+    width: 100%;
+    height: 100%;
+    font-size: 1.1em;
+    padding-left: 1.1em;
+  }
+
+  .final { grid-area: final-time; }
+
+  .initial { grid-area: initial-time; }
+
+  .control {
+    cursor: pointer;
+  }
+
+  .play { 
+    grid-area: play; 
+    font-size: 5em !important;
+    position: absolute;
+    bottom: 0.3em;
+    left: -0.1em;
+  }
+
+  .info {
+    font-size: 2.5em !important;
+    position: absolute;
+    bottom: 0.5em;
+  }
+
+  .song-controls {
+    font-size: 3em !important;
+    position: absolute; 
+    bottom: 0.8em;
+  }
+
+  .next {
+    grid-area: next;
+    left: 0.3em;
+  }
+
+  .prev {
+    grid-area: prev;
+  }
+
+  .songInfo{
+    display: grid; 
+    background-color: rgba(0, 0, 0, 0.769);
+    font-family: Roboto, sans-serif;
+    z-index: 15;
+    position: absolute;
+    grid-area: cover;
+    margin-right: 1.7em;
+    margin-top: -2em;
+    font-size: 0.8em;
+    height: 180%;
+    border-radius: 10%;
+    width: 80%;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    opacity: 00%;
+    font-style: oblique;
+  }
+
+}

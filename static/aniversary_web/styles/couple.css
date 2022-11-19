@@ -1,0 +1,13 @@
+.couple {
+  height: 150px;
+  bottom: 73%;
+  left: 42%;
+}
+
+/* Media query para desktop */
+@media (min-width: 1025px) {
+  .couple {
+    left: 70%;
+    bottom: 72%;
+  }
+}

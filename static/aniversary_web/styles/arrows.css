@@ -1,0 +1,47 @@
+.arrow {
+  border: solid rgb(223, 223, 223);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+  align-self: center;
+  margin-left: 15px;
+  opacity: 10%;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  opacity: 80%;
+  animation-name: onHover;
+  animation-duration: 1s;
+}
+
+@keyframes onHover {
+  0% { opacity: 15%; }
+  100% { opacity: 80%;}
+}
+
+@media only screen and (max-width: 768px) {
+  .arrow:last-child{
+    margin-left: -15px;
+  }
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}

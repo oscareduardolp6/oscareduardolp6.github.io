@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/wavy.css">
+  <link rel="stylesheet" href="../styles/couple.css">
+  <link rel="stylesheet" href="../styles/quote.css">
+  <link rel="stylesheet" href="../styles/reasons.css">
+  <link rel="stylesheet" href="../styles/menu.css">
+  <link rel="stylesheet" href="../styles/arrows.css">
+  <link rel="stylesheet" href="../styles/homeButton.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
+  <!-- Todo: Agregar un icono de lista de amor -->
+  <title>Razones por las que te amo</title>
+</head>
+<body>
+  <div class="container" x-data="app">
+    <div class="moon">
+      <div class="carter first"></div>
+      <div class="carter second"></div>
+      <div class="carter third"></div>
+      <div class="moon-halo"></div>
+    </div>
+    <div class="meteors">
+      <div class="meteor"></div>
+      <div class="meteor"></div>
+      <div class="meteor"></div>
+      <div class="meteor"></div>
+    </div>
+    <div class="stars">
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+    </div>
+    <p>Te amo hasta la luna y de regreso, donde estas tu... mi hogar 🤍</p>
+    <div class="montains">
+      <img class="couple" src="../assets/Couple2.svg" alt="couple">
+    </div>
+    <main>
+      <div class="slide-container">
+        <div class="arrow left"  x-on:click="previousReason"></div>
+        <div class="text-content" :class="animationClass"  >
+          <h1 x-text="reasons[actualReason]" x-init="selfMovingSlider"></h1>
+        </div>
+        <div class="arrow right" x-on:click="nextReason"></div>
+      </div>
+    </main>
+    <div class="goHome">
+      <a href="../index.html" >
+        <i class="large material-icons">home</i>
+      </a>
+    </div>
+  </div>
+  <script src="../js/reasons.js"></script>
+</body>
+</html>
