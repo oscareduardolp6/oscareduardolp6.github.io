@@ -1,0 +1,21 @@
+@font-face {
+  font-family: paint-font; 
+  src: url(./TropicalAsianDemoRegular-11V0.ttf);
+}
+
+p {
+  color: white; 
+  text-transform: uppercase;
+  font-size: 1.6em;
+  font-family: paint-font; 
+  width: 150px;
+  right: 5%;
+  top: 35%
+}
+
+@media (min-width: 1025px){
+  p {
+    font-size: 2.5em;
+    width: 300px;
+  }
+}

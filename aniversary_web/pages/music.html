@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/wavy.css">
+  <link rel="stylesheet" href="../styles/couple.css">
+  <link rel="stylesheet" href="../styles/quote.css">
+  <link rel="stylesheet" href="../styles/reasons.css">
+  <link rel="stylesheet" href="../styles/menu.css">
+  <link rel="stylesheet" href="../styles/arrows.css">
+  <link rel="stylesheet" href="../styles/homeButton.css">
+  <link rel="stylesheet" href="../styles/music.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <style>
+    .container { max-width: 100% !important;}
+  </style>
+  <!-- Todo: Agregar un icono de lista de amor -->
+  <title>Razones por las que te amo</title>
+</head>
+<body>
+  <div class="container" x-data="app">
+    <div class="moon">
+      <div class="carter first"></div>
+      <div class="carter second"></div>
+      <div class="carter third"></div>
+      <div class="moon-halo"></div>
+    </div>
+    <div class="meteors">
+      <div class="meteor"></div>
+      <div class="meteor"></div>
+      <div class="meteor"></div>
+      <div class="meteor"></div>
+    </div>
+    <div class="stars">
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+    </div>
+    <p>Te amo hasta la luna y de regreso, donde estas tu... mi hogar 🤍</p>
+    <div class="montains">
+      <img class="couple" src="../assets/Couple2.svg" alt="couple">
+    </div>
+    <main x-data="app">
+      <div class="glass-player center grid-player">
+        <img alt="cover" :src="currentSongCover" :class="songInfoClass">
+        <p class="songInfo" x-text="songData.info"></p>
+        <h1 class="song-title" x-text="songData.title"></h1>
+        <h2 class="song-album">Shrek 2: Motion Picture Soundtrack</h2>
+        <h2 class="song-artist">Accidentaly in love</h2>
+        <input disabled type="range" class="range-slider__range" :max="songData.duration" id="song-time" :value="songData.currentTime">
+        <i class="large material-icons play" x-text="centralControl" @click="togglePlayPause"></i>
+        <i class="large material-icons next song-controls" @click="next">fast_forward</i>
+        <i class="large material-icons prev song-controls" @click="prev">fast_rewind</i>
+      </div>
+    </main>
+    <div class="goHome">
+      <a href="../index.html" >
+        <i class="large material-icons">home</i>
+      </a>
+    </div>
+  </div>
+  <script src="../js/music.js"></script>
+</body>
+</html>

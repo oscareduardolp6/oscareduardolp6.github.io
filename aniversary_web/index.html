@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/wavy.css">
+  <link rel="stylesheet" href="./styles/couple.css">
+  <link rel="stylesheet" href="./styles/quote.css">
+  <link rel="stylesheet" href="./styles/menu.css">
+  <!-- Todo: Agregar un icono de amor  -->
+  <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
+  <title>Aniversario</title>
+</head>
+<body>
+  <div class="container" x-data="app">
+    <div class="moon">
+      <div class="carter first"></div>
+      <div class="carter second"></div>
+      <div class="carter third"></div>
+      <div class="moon-halo"></div>
+    </div>
+    <div class="meteors">
+      <div class="meteor"></div>
+      <div class="meteor"></div>
+      <div class="meteor"></div>
+      <div class="meteor"></div>
+    </div>
+    <div class="stars">
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+    </div>
+    <p>Te amo hasta la luna y de regreso, donde estas tu... mi hogar 🤍</p>
+    <div class="montains">
+      <img class="couple" src="./assets/Couple2.svg" alt="couple">
+    </div>
+    <div :class="shouldShowMenu && 'menu-container'" x-show="shouldShowMenu" x-init="initLoadingAnimationStarter()">
+      <div x-show="shouldShowMenu" :class="shouldShowMenu && 'menu-grid glass-effect'">
+        <nav class="parent">
+          <ul class="menu-item firs-item center-container">
+            <a href="./pages/reasons.html" class="center-item item-content">Razones por las que te amo</a>
+          </ul>
+          <ul class="menu-item second-item center-container">
+            <a href="./pages/music.html" class="center-item item-content">Canciones</a>
+          </ul>
+          <ul class="menu-item third-item center-container">
+            <a href="./girlfriend.html" class="center-item item-content">¿Quieres ser mi novia?</a>
+          </ul>
+          <ul class="menu-item fourth-item center-container">
+            <a href="./gallery.html" class="center-item item-content">Galeria</a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+</html>

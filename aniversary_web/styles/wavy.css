@@ -1,0 +1,7 @@
+.montains {
+  width: 100%;
+  background: rgb(0,0,0);
+  height: 100px;
+  bottom: 1px;
+  border-radius: 25% 50% 0% 0%;
+}

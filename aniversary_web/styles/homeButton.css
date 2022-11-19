@@ -1,0 +1,19 @@
+a i {
+  background-color: #ffffff1b;
+  border-radius: 50%;
+  color: rgba(230, 230, 230, 0.447); 
+  padding: 10px;
+  z-index: 10;
+}
+
+.goHome {
+  left: 75%;
+  top: 85%; 
+}
+
+.material-icons { font-size: 3em !important; }
+
+@media (min-width: 1025px) {
+  .material-icons { font-size: 4em !important; }
+  .goHome { left: 90%;}
+}
