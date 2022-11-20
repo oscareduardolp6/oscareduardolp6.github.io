@@ -167,7 +167,7 @@ main .center {
 
   .songInfo{
     display: grid; 
-    background-color: rgba(0, 0, 0, 0.769);
+    background-color: rgba(24, 24, 24, 0.85);
     font-family: Roboto, sans-serif;
     z-index: 15;
     position: absolute;
@@ -181,8 +181,21 @@ main .center {
     padding-top: 2em;
     padding-left: 2em;
     padding-right: 2em;
-    opacity: 00%;
     font-style: oblique;
+    /* animation: ease-in-out 5s; */
+    animation-name: enterInfo;
+    animation-duration: 4s;
+  }
+
+  @keyframes enterInfo {
+    0%{
+      opacity: 0%;
+      margin-top: -100em;
+    }
+    100%{
+      opacity: 100%;
+      margin-top: -2em;
+    }
   }
 
 }
