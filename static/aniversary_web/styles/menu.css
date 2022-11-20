@@ -23,6 +23,10 @@
   border-radius: 20px;
 }
 
+.disabled-option {
+  filter: brightness(0.3);
+}
+
 .center-container { position: relative; }
 
 .center-item {

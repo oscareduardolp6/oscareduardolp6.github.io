@@ -73,6 +73,8 @@ const appData = () => ({
   }, 
   next(){
     if(this.currentSong) this.currentSong.pause()
+    this.songInfoClass = ''
+    this.songData.info = ''
     const nextSongIndex = this.currentSongIndex + 1
     const isLastSong = nextSongIndex >= this.songsNames.length
     const audioPath = 
@@ -84,6 +86,8 @@ const appData = () => ({
   },
   prev(){
     if(this.currentSong) this.currentSong.pause()
+    this.songInfoClass = ''
+    this.songData.info = ''
     const prevSongIndex = this.currentSongIndex - 1
     const isFirstSong = prevSongIndex < 0
     const audioPath = 
@@ -104,13 +108,16 @@ const appData = () => ({
     console.log(getSongTitle(audioPath))
     this.songData.title = getSongTitle(audioPath)
     this.currentSongCover = `${COVER_IMAGES_PATH}/${this.songsCoverImages[this.currentSongIndex]}`
-    this.songData.info = this.songsInfo[this.currentSongIndex]
     this.currentSong.addEventListener('timeupdate', () => {
       if(this.movingTime) return 
       const currentTime = this.currentSong.currentTime
       this.songData.currentTime = currentTime
-      // if(currentTime > 6) 
-        // this.songInfoClass = ''
+      if(currentTime > 3) {
+        this.songInfoClass = 'songInfo'
+        const songInfoData = this.songsInfo[this.currentSongIndex]
+        console.log(songInfoData)
+        this.songData.info = songInfoData
+      }
     })
     this.currentSong.addEventListener('loadedmetadata', () => {
       console.log('Duración')

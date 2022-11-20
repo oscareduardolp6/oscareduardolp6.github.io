@@ -69,8 +69,8 @@
     </div>
     <main x-data="app">
       <div class="glass-player center grid-player">
-        <img alt="cover" :src="currentSongCover" :class="songInfoClass">
-        <p class="songInfo" x-text="songData.info"></p>
+        <img alt="cover" :src="currentSongCover">
+        <p :class="songInfoClass" x-text="songData.info"></p>
         <h1 class="song-title" x-text="songData.title"></h1>
         <h2 class="song-album">Shrek 2: Motion Picture Soundtrack</h2>
         <h2 class="song-artist">Accidentaly in love</h2>
