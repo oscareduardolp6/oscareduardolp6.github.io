@@ -2,7 +2,7 @@
 title: "La Arquitectura Puede Matar Una Aplicacion"
 date: 2022-08-15T20:21:02-05:00
 author: "Oscar López"
-draft: false
+draft: true 
 tags: 
   - Arquitectura
   - Deuda Técnica

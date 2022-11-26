@@ -43,11 +43,11 @@ Menus:
       title: Proyectos
       url: /#projects
       wight: 1
-    # - identifier: blog 
-    #   name: Blog
-    #   title: Blog posts 
-    #   url: /blogs
-    #   weight: 1 
+    - identifier: blog 
+      name: Blog
+      title: Blog posts 
+      url: /blogs
+      weight: 1 
       
 defaultContentLanguage: es
 
