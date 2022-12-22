@@ -1,6 +1,7 @@
 {
   "conventionalCommits.scopes": [
     "Content",
-    "Landing page"
+    "Landing page",
+    "Global"
   ]
 }
