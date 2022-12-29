@@ -255,17 +255,18 @@ languages:
           The program will tell you if your word & order is correct or not. 
           In order to facilitate  the result, the software ask if you think 
           that you can remember or if you want to change it"
-          image: /images/projects/memory-trainer-1.png
+          image: /images/projects/memory-trainer-7.png
           featured: 
             name: Demo 
-            link: /projects/memory-trainer 
+            link: /memory-project
           badges: 
             - "React"
             - "CSS"
+            - "Valtio"
           links: 
             - icon: fab fa-github
-              url: https://github.com/gurusabarish/converter
-              tooltip: React Code
+              url: https://github.com/oscareduardolp6/memory-project-stack-1
+              tooltip: Repository
     contact:
       enable: true 
       content: Get in Touch 
@@ -468,17 +469,31 @@ languages:
           El programa nos dirá si lo hemos hecho correctamente o si hemos fallado,
           para mejorar el resultado, se nos pregunta si creemos que podemos recordar 
           la palabra o si por no conocerla o su complejidad, queremos cambiarla"
-          image: /images/projects/memory-trainer-1.png
+          image: /images/projects/memory-trainer-7.png
           featured: 
             name: Demo 
-            link: /projects/memory-trainer
+            link: /memory-project
           badges: 
             - "React"
             - "CSS"
+            - "Valtio"
           links: 
             - icon: fab fa-github
-              url: https://github.com/gurusabarish/converter
-              tooltip: React Code
+              url: https://github.com/oscareduardolp6/memory-project-stack-1
+              tooltip: Repository
+        - title: "API de palabras aleatorias"
+          content: "Simple servicio escrito en **Go** que devuelve palabras aleatorias en español"
+          image: https://imgs.search.brave.com/44nPwKMaZRb3vGjLO04gcs1xxgAxSd8YgH1UpJxj6bI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNDQ4/Mjc0Mi5qcGc
+          featured: 
+            name: Demo 
+            link: https://random-spanish-words.onrender.com/
+          badges: 
+            - "Go" 
+          links: 
+            - icon: fab fa-github
+              url: https://github.com/oscareduardolp6/random-spanish-words-api-go
+              tooltip: Repository
+          
     contact: 
       title: Contacto
       enable: true 
