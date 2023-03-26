@@ -88,10 +88,7 @@ languages:
       intro: "Hi, I'm"
       title: "Oscar Lopez"
       subtitle: "Fullstack web developer"
-      content: "I'm dedicated to create solutions that generate value to the user.
-      Specialized in **web development**, I've worked on *corporative* , *industrial* & 
-      *back office* solutions.
-      A passionate of continuos learning, expand my social circle & interact with people. "
+      content: "I'm a web developer specializing in corporate, industrial, and back-office solutions. My main focus is to create solutions that bring value to users. With my experience and skills in web development, I can help your company achieve its technological goals. My work speaks for itself, and I'm confident I can offer you quality solutions that meet your needs. If you're looking for a web developer with experience and a user-centered approach, I'm the right choice for your project."
       image: /profile.jpg
       button:
         enable: true
@@ -304,10 +301,7 @@ languages:
       intro: "Hola, soy"
       title: "Oscar López"
       subtitle: "Desarrollador web fullstack"
-      content: "Me dedico a crear soluciones que agreguen valor al usuario. 
-      Especializado en **desarrollo web**, he trabajado, principalmente, en soluciones *corporativas*, *industriales* 
-      y de *back office*. 
-      Soy un apasionado del aprendizaje continuo y ampliar mi circulo social. " 
+      content: "Soy un desarrollador web especializado en soluciones corporativas, industriales y de back office. Con mi experiencia y habilidades en el desarrollo web, puedo ayudar a su empresa a alcanzar sus objetivos tecnológicos. Mi trabajo habla por sí mismo, y estoy seguro de que puedo ofrecerle soluciones de calidad que satisfagan sus necesidades. Si estás buscando un desarrollador web con experiencia y un enfoque centrado en el usuario, estoy seguro de que soy la elección correcta para tu proyecto" 
       image: /profile.jpg
       button:
         enable: true
