@@ -225,10 +225,7 @@ languages:
       enable: true 
       items: 
         - title: "Sales & Inventory Manager for JM Mueblería"
-          content: "Tool to manage the control of the store, allowing to have the stock 
-          information centralized in a server to be consumed from several client 
-          computers. 
-          Server developed in `Deno` with *Typescript*,  UI with `React` & `Electron`"
+          content: "I have developed an inventory management tool for a furniture store using Deno in TypeScript for the server and React and Electron for the user interface (UI). This tool is easily adaptable to any type of business and helps to centralize warehouse information to improve inventory management efficiency from any point or device"
           image: /images/projects/Muebleria-1.png
           badges: 
             - "Deno"
@@ -249,12 +246,13 @@ languages:
               url: https://github.com/oscareduardolp6/Owl_Sales_Point_Back 
               tooltip: Backend 
         - title: "Memory Trainer"
-          content: "Project made to improve my memory, the idea is remember certain 
-          number of words in order, after, you have to repeat all words in the same 
-          order. 
-          The program will tell you if your word & order is correct or not. 
-          In order to facilitate  the result, the software ask if you think 
-          that you can remember or if you want to change it"
+          content: "My memory training project is designed to enhance my retention
+          of information. The project prompts me to recall a list of words in a 
+          specific order and repeat them back in the same sequence. 
+          The program provides instant feedback to assess the accuracy of my recall, 
+          allowing me to adjust the word list if I struggle with certain words. 
+          By regularly practicing with this tool, I aim to improve my cognitive 
+          performance in various areas of my life"
           image: /images/projects/memory-trainer-7.png
           featured: 
             name: Demo 
@@ -266,6 +264,22 @@ languages:
           links: 
             - icon: fab fa-github
               url: https://github.com/oscareduardolp6/memory-project-stack-1
+              tooltip: Repository
+        - title: "Random Words Generator Go API"
+          content: "I have created an API for generating random Spanish words using Go. 
+          The API provides a simple and effective way to improve one's Spanish vocabulary, 
+          by generating random Spanish words that users can use in various contexts. 
+          The API is open source and available for anyone who wishes to use it to improve their Spanish vocabulary 
+          for free"
+          image: https://imgs.search.brave.com/44nPwKMaZRb3vGjLO04gcs1xxgAxSd8YgH1UpJxj6bI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNDQ4/Mjc0Mi5qcGc
+          featured: 
+            name: Demo 
+            link: https://random-spanish-words.onrender.com/
+          badges: 
+            - "Go" 
+          links: 
+            - icon: fab fa-github
+              url: https://github.com/oscareduardolp6/random-spanish-words-api-go
               tooltip: Repository
     contact:
       enable: true 
@@ -370,9 +384,9 @@ languages:
           content: |- 
             Fui parte del equipo de desarrollo de proyectos, la empresa enfocada
             en generar software tanto *web*, como módulos para el *ERP* personalizados 
-            diseñados a la medida para cada una de las especialidades del [[Grupo Serviacero]](https://serviacero.com/). 
+            diseñados a la medida para cada una de las especialidades del [Grupo Serviacero](https://serviacero.com/). 
 
-            Participé en el desarrollo de integración del sistema de emision de *Carta Porte*. 
+            Participé en el desarrollo de integración del sistema de emisión de *Carta Porte*. 
 
             **Tecnologías** 
             - .Net 
@@ -407,7 +421,7 @@ languages:
             desde la consultora [IROX IT](http://iroxit.com/). 
 
             Participo desarrollando módulos y funcionalidades para la aplicación web interna de 
-            cotización y emisión de polizas, *microservicios* en `.NET` y *frontend* en `Angular`. 
+            cotización y emisión de pólizas, *microservicios* en `.NET` y *frontend* en `Angular`. 
     education: 
       enable: true 
       title: Educación 
@@ -440,10 +454,7 @@ languages:
       enable: true
       items: 
         - title: "Manejador de Inventario y ventas para JM Mublería"
-          content: "Herramienta hecha para el control de la tienda física, 
-          permitiendo tener la información del almacén centralizada para ser 
-          consumida desde varias computadora cliente, desarrollada con un 
-          *servidor* `Deno` en *Typescript* y la *UI* con `React` y `Electron`"
+          content: "He desarrollado una herramienta de gestión de inventario para una mueblería utilizando Deno en TypeScript para el servidor y React y Electron para la interfaz de usuario (UI). Esta herramienta es fácilmente adaptable a cualquier tipo de negocio y ayuda a centralizar la información del almacén para mejorar la eficiencia en la gestión de inventario desde cualquier punto o dispositivo"
           image: /images/projects/Muebleria-1.png
           badges: 
             - "Deno"
@@ -464,11 +475,14 @@ languages:
               url: https://github.com/oscareduardolp6/Owl_Sales_Point_Back 
               tooltip: Backend 
         - title: "Entrenador de memoria"
-          content: "Proyecto hecho para mejorar mi memoria, la idea es recordar cierto
-          numero de palabras en orden, para después repetirlas en el mismo orden. 
-          El programa nos dirá si lo hemos hecho correctamente o si hemos fallado,
-          para mejorar el resultado, se nos pregunta si creemos que podemos recordar 
-          la palabra o si por no conocerla o su complejidad, queremos cambiarla"
+          content: "He creado un proyecto de entrenamiento de memoria para mejorar 
+          mi capacidad de retener información. 
+          El objetivo es recordar una lista de palabras en un orden específico y 
+          repetirlas en el mismo orden. El programa proporciona retroalimentación 
+          inmediata sobre la precisión de la repetición y permite al usuario actualizar 
+          la lista de palabras en caso de dificultad. Esta herramienta puede ser 
+          útil para cualquier persona que desee mejorar su capacidad de retener 
+          información y es fácil de usar"
           image: /images/projects/memory-trainer-7.png
           featured: 
             name: Demo 
@@ -482,7 +496,11 @@ languages:
               url: https://github.com/oscareduardolp6/memory-project-stack-1
               tooltip: Repository
         - title: "API de palabras aleatorias"
-          content: "Simple servicio escrito en **Go** que devuelve palabras aleatorias en español"
+          content: "He creado una API de generación de palabras aleatorias en español utilizando Go. 
+          La API ofrece una forma sencilla y efectiva de mejorar el vocabulario en español, 
+          generando palabras aleatorias en español que los usuarios pueden utilizar en diferentes contextos. 
+          La API es de código abierto y está disponible para cualquier persona que desee utilizarla y 
+          mejorar su español de manera gratuita"
           image: https://imgs.search.brave.com/44nPwKMaZRb3vGjLO04gcs1xxgAxSd8YgH1UpJxj6bI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNDQ4/Mjc0Mi5qcGc
           featured: 
             name: Demo 
