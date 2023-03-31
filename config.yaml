@@ -17,17 +17,17 @@ Menus:
       name: Sobre mí
       title: Sobre mí 
       url: /#about
-      wight: 1
+      wight: 4
     - identifier: experience
       name: Experiencia
       title: Experiencia
       url: /#experience
-      wight: 1
+      wight: 3
     - identifier: education
       name: Educación
       title: Educación
       url: /#education
-      wight: 1
+      wight: 6
     # - identifier: achievements
     #   name: Logros
     #   title: Logros
@@ -37,7 +37,7 @@ Menus:
       name: Contacto
       title: Contacto
       url: /#contact
-      wight: 1
+      wight: 2
     - identifier: projects
       name: Proyectos
       title: Proyectos
@@ -47,7 +47,7 @@ Menus:
       name: Blog
       title: Blog posts 
       url: /blogs
-      weight: 1 
+      weight: 5 
       
 defaultContentLanguage: es
 
@@ -58,6 +58,11 @@ languages:
     description: Oscar Lopez Portfolio
     Menus: 
       main: 
+        - identifier: blog 
+          name: Blog
+          title: Blog posts 
+          url: /en/blogs
+          weight: 5 
         - identifier: about 
           name: About me 
           title: About me 
@@ -285,7 +290,7 @@ languages:
       btnName: Email
       whatsapp: 524773010668
     footer: 
-      recentPosts: false 
+      recentPosts: true 
       socialNetworks:
         github: https://github.com/oscareduardolp6
         linkedin: https://www.linkedin.com/in/oscareduardolp6/

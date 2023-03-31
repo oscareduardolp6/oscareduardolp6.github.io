@@ -4,11 +4,12 @@ date: 2023-03-28T20:25:35-06:00
 draft: false
 author: "Oscar López"
 image: /images/projects/file-organizer/banner.png
+github_link: "https://github.com/oscareduardolp6/file-organizer"
 tags: 
   - Deno 
   - Applications
   - Projects 
-  - Contruyendo Organizador de Archivos
+  - Making file organizer
 description: "Mi proceso de construcción del proyecto de organizador de archivos"
 ---
 
@@ -33,3 +34,7 @@ El funcionamiento es básico, que yo pueda dejar los archivos en cualquier lugar
 
 ## Conclusiones 
 A lo largo de esta serie voy a estar compartiendo mi proceso de *creación de software* esperando que alguien con menos *experiencia* le ayude o que alguien con mayor *experiencia* me haga notar mis errores o que me compartan ideas de lo que podría incluir.
+
+Aquí les dejo el [Link](https://github.com/oscareduardolp6/file-organizer) al repositorio por si quieren echar un vistazo:
+
+> [Repositorio](https://github.com/oscareduardolp6/file-organizer)
