@@ -107,4 +107,4 @@ type DeleteRule = {
 Este ha sido mi avance durante la semana, no he tenido tanto tiempo como quiera, pero va tomando forma, por ahora ya tengo definido el cómo se van a estructurar las *acciones* del programa, el siguiente paso es comenzar a darle un poco de comportamiento y *test*. 
 
 Este es una serie de *artículos* para documentar mi proceso de creación de software te dejo los links a la entrada anterior y a la siguiente: 
-> [Anterior](/blogs/making-file-organizer-part-1/)
+> [Anterior](/blogs/building-file-organizer-part-1/)

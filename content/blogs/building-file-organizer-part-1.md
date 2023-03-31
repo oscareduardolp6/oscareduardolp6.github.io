@@ -39,4 +39,4 @@ Aquí les dejo el [Link](https://github.com/oscareduardolp6/file-organizer) al r
 
 > [Repositorio](https://github.com/oscareduardolp6/file-organizer)
 
-> [Siguiente Entrada](/blogs/making-file-organizer-part-2/)
+> [Siguiente Entrada](/blogs/building-file-organizer-part-2/)
