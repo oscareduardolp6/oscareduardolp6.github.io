@@ -38,3 +38,5 @@ A lo largo de esta serie voy a estar compartiendo mi proceso de *creación de so
 Aquí les dejo el [Link](https://github.com/oscareduardolp6/file-organizer) al repositorio por si quieren echar un vistazo:
 
 > [Repositorio](https://github.com/oscareduardolp6/file-organizer)
+
+> [Siguiente Entrada](/blogs/making-file-organizer-part-2/)
