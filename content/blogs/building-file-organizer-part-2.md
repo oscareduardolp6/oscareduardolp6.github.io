@@ -14,24 +14,23 @@ tags:
 description: "El Dominio"
 ---
 
-Lo primero en mi caso, fue plasmar en [Notion](https://www.notion.so/) las cosas que quería que tuviera mi *softaware*. 
-Creo que es importante tener *más o menos* resuelto lo que quieres hacer antes de comenzar con el *código*, entre más puedas adelantar 
+Lo primero en mi caso, fue plasmar en [Notion](https://www.notion.so/) las cosas que quería que tuviera mi *software*. 
+Creo que es importante tener *más o menos* definido lo que quieres hacer antes de comenzar con el *código*, entre más puedas adelantar 
 de *lógica* antes de comenzar a teclear mejor, aunque no siempre es posible eso. 
 
 <img src="/images/projects/file-organizer/domain-image-1.png" alt="Mi tablero de Notion" style="width:60%;margin-bottom: 2em" />
 
 **En mi caso la lógica es muy sencilla:**
 
-Tomando un directorio base, entrar recursivamente a sus subcarpetas y archivos revisando cada archivo para ver si se adecua a alguno de los criterios utilizados para organizar. 
+Tomando un directorio base, entrar recursivamente a través de sus subcarpetas y archivos, revisando cada archivo para verificar si cumple con los criterios de organización. 
 
-Bastante simple, tenemos 3 factores *básicos*: 
+Bastante simple, tenemos 2 factores *básicos*: 
 - Tendrá **recursividad** 
-- Tendrá ciclos 
 - Y la lógica de organización 
 
 Ya con esto definido comienzo a darle forma a las estructuras. 
 
-Para este proyecto estoy utilizando *Typescript*, entonces, lo primero que quiero es darle un poco de forma a las *opciones* de organización me refiero a: 
+Para este proyecto estoy utilizando *Typescript*, entonces, lo primero que quiero es darle un poco de forma a las *opciones* de organización: 
 - Contiene en el nombre
 - Tiene extensión tal
 - El nombre termina con
@@ -55,14 +54,14 @@ export type Conditions =
 
 Después, solo para darle un poco de *semántica* a mis tipos, renombro el tipo `string` como `Pattern`. 
 Esto solo para poder identificar mejor qué es lo que representa ese `string` y por si después tengo que agregar `Branded Types`. 
-Un `Pattern` va a ser el string que en conjunto con la `Conditions` me va a decir qué condición se debe de cumplir, por ejemplo, que el nombre de archivo contenga *"Tarea"*
+Un `Pattern` va a ser una cadena que, en conjunto con las `Conditions`, indicará qué condición debe cumplirse, por ejemplo, que el nombre de archivo contenga *"Tarea"*
 
 ```ts
 // Pattern.ts
 export type Pattern = string[] 
 ```
 ## PathString 
-Tomando en cuenta que una de las cosas que quiero hacer es mover archivos a otros directorios, creo que es buena ideas *asegurarme* que estos directorios existan, yo voy a asegurarme de que los directorios existan utilizando un `BrandedType` en conjunto con una librería que he estado utilizando llamada [NeverThrow](https://www.npmjs.com/package/neverthrow?activeTab=readme) para evitar *lanzar* excepciones y que el control de errores se sepa y maneje desde el tipado, es una libería bastante interesante. 
+Tomando en cuenta que una de las cosas que quiero hacer es mover archivos a otros directorios, creo que es buena ideas *asegurarme* que estos directorios existan, yo voy a asegurarme de que los directorios existan utilizando un `BrandedType` en conjunto con una librería que he estado utilizando llamada [NeverThrow](https://www.npmjs.com/package/neverthrow?activeTab=readme) para evitar *lanzar* excepciones y que el control de errores se sepa y maneje desde el tipado, es una librería bastante interesante. 
 
 
 ```ts 
@@ -79,8 +78,8 @@ export type PathErrors = 'Directory Not Found'
 // Creamos el Branded Type
 export type PathString = string & PathBrand
 
-// Función para crear el Branded Type, así aseguramos que el string tenga las caracteristicas que queremos 
-// en mi caso, que sea un directorio que exista y aparte, devolvemos un result, por si ocurriera algún error
+// Función para crear el Branded Type, así aseguramos que el string tenga las características que deseamos
+// en mi caso, que sea un directorio que exista y aparte, devolvemos un result, por si ocurriese algún error
 export const createPathString = async (str: string): Promise<Result<PathString,PathErrors>> => {
   const directoryExists_ = await directoryExists(str)
   if(!directoryExists_) return err('Directory Not Found')
@@ -91,7 +90,7 @@ export const createPathString = async (str: string): Promise<Result<PathString,P
 
 ## Rule
 
-Y nuestra última *estructura* más básica, una *Regla(Rule)*, que será la representación de lo que quiero hacer con archivo, por ejemplo,moverlo a otro directorio o borrarlo y también toda la información que se requiera para hacerlo, como la nueva ruta. Para mi luce así: 
+Y nuestra última *estructura* básica, una *Regla (Rule)*, que será la representación de lo que quiero hacer con archivo, por ejemplo,moverlo a otro directorio o borrarlo y también toda la información que se requiera para hacerlo, como la nueva ruta. Para mí luce así: 
 ```ts 
 type MoveRule = {
   action: 'Move To', 
