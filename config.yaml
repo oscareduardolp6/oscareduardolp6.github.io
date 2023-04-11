@@ -3,6 +3,10 @@ languageCode: es-mx
 title: Oscar López 
 theme: hugo-profile 
 
+sitemap: 
+  changefreq: monthly 
+  priority: 0.5
+
 Paginate: 3
 disqusShortname: oscarlp6
 
