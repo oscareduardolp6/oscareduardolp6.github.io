@@ -246,27 +246,27 @@ languages:
               url: https://github.com/oscareduardolp6/semimonthly-paydays-ts
             - icon: fab fa-node 
               url: https://www.npmjs.com/package/semimonthly-paydays-ts
-        - title: "Sales & Inventory Manager for JM Mueblería"
-          content: "I have developed an inventory management tool for a furniture store using Deno in TypeScript for the server and React and Electron for the user interface (UI). This tool is easily adaptable to any type of business and helps to centralize warehouse information to improve inventory management efficiency from any point or device"
-          image: /images/projects/Muebleria-1.png
-          badges: 
-            - "Deno"
-            - "Typescript"
-            - "React"
-            - "Electron"
-          links: 
-            - icon: fab fa-facebook
-              url: https://www.facebook.com/JMuebleria
-              tooltip: JM Mueblería
-            - icon: fab fa-github
-              url: https://github.com/oscareduardolp6/muebleria
-              tooltip: Frontend
-            - icon: fab fa-github
-              url: https://github.com/oscareduardolp6/Share
-              tooltip: Share Code 
-            - icon: fab fa-github 
-              url: https://github.com/oscareduardolp6/Owl_Sales_Point_Back 
-              tooltip: Backend 
+        # - title: "Sales & Inventory Manager for JM Mueblería"
+        #   content: "I have developed an inventory management tool for a furniture store using Deno in TypeScript for the server and React and Electron for the user interface (UI). This tool is easily adaptable to any type of business and helps to centralize warehouse information to improve inventory management efficiency from any point or device"
+        #   image: /images/projects/Muebleria-1.png
+        #   badges: 
+        #     - "Deno"
+        #     - "Typescript"
+        #     - "React"
+        #     - "Electron"
+        #   links: 
+        #     - icon: fab fa-facebook
+        #       url: https://www.facebook.com/JMuebleria
+        #       tooltip: JM Mueblería
+        #     - icon: fab fa-github
+        #       url: https://github.com/oscareduardolp6/muebleria
+        #       tooltip: Frontend
+        #     - icon: fab fa-github
+        #       url: https://github.com/oscareduardolp6/Share
+        #       tooltip: Share Code 
+        #     - icon: fab fa-github 
+        #       url: https://github.com/oscareduardolp6/Owl_Sales_Point_Back 
+        #       tooltip: Backend 
         - title: "Memory Trainer"
           content: "My memory training project is designed to enhance my retention
           of information. The project prompts me to recall a list of words in a 
@@ -489,27 +489,27 @@ languages:
               url: https://github.com/oscareduardolp6/semimonthly-paydays-ts
             - icon: fab fa-node 
               url: https://www.npmjs.com/package/semimonthly-paydays-ts
-        - title: "Manejador de Inventario y ventas para JM Mublería"
-          content: "He desarrollado una herramienta de gestión de inventario para una mueblería utilizando Deno en TypeScript para el servidor y React y Electron para la interfaz de usuario (UI). Esta herramienta es fácilmente adaptable a cualquier tipo de negocio y ayuda a centralizar la información del almacén para mejorar la eficiencia en la gestión de inventario desde cualquier punto o dispositivo"
-          image: /images/projects/Muebleria-1.png
-          badges: 
-            - "Deno"
-            - "Typescript"
-            - "React"
-            - "Electron"
-          links: 
-            - icon: fab fa-facebook
-              url: https://www.facebook.com/JMuebleria
-              tooltip: JM Mueblería
-            - icon: fab fa-github
-              url: https://github.com/oscareduardolp6/muebleria
-              tooltip: Frontend
-            - icon: fab fa-github
-              url: https://github.com/oscareduardolp6/Share
-              tooltip: Share Code 
-            - icon: fab fa-github 
-              url: https://github.com/oscareduardolp6/Owl_Sales_Point_Back 
-              tooltip: Backend 
+        # - title: "Manejador de Inventario y ventas para JM Mublería"
+        #   content: "He desarrollado una herramienta de gestión de inventario para una mueblería utilizando Deno en TypeScript para el servidor y React y Electron para la interfaz de usuario (UI). Esta herramienta es fácilmente adaptable a cualquier tipo de negocio y ayuda a centralizar la información del almacén para mejorar la eficiencia en la gestión de inventario desde cualquier punto o dispositivo"
+        #   image: /images/projects/Muebleria-1.png
+        #   badges: 
+        #     - "Deno"
+        #     - "Typescript"
+        #     - "React"
+        #     - "Electron"
+        #   links: 
+        #     - icon: fab fa-facebook
+        #       url: https://www.facebook.com/JMuebleria
+        #       tooltip: JM Mueblería
+        #     - icon: fab fa-github
+        #       url: https://github.com/oscareduardolp6/muebleria
+        #       tooltip: Frontend
+        #     - icon: fab fa-github
+        #       url: https://github.com/oscareduardolp6/Share
+        #       tooltip: Share Code 
+        #     - icon: fab fa-github 
+        #       url: https://github.com/oscareduardolp6/Owl_Sales_Point_Back 
+        #       tooltip: Backend 
         - title: "Entrenador de memoria"
           content: "He creado un proyecto de entrenamiento de memoria para mejorar 
           mi capacidad de retener información. 
