@@ -230,6 +230,22 @@ languages:
     projects: 
       enable: true 
       items: 
+        - title: "Semimonthly Paydays Library"
+          content: "Creating an application that would help me know how much money I had to save each time I got paid at work, 
+          I came across the fact that there was no library that provided me with the functionality to determine the paydays 
+          and how many of those would be between two dates. Taking this into account and believing that perhaps someone else 
+          could find it useful, I developed this library."
+          image: https://somospnt.com/images/blog/cover/Que_es_npm.png
+          badges: 
+            - "npm"
+            - "Typescript"
+            - "Library"
+            - "Node" 
+          links:
+            - icon: fab fa-github 
+              url: https://github.com/oscareduardolp6/semimonthly-paydays-ts
+            - icon: fab fa-node 
+              url: https://www.npmjs.com/package/semimonthly-paydays-ts
         - title: "Sales & Inventory Manager for JM Mueblería"
           content: "I have developed an inventory management tool for a furniture store using Deno in TypeScript for the server and React and Electron for the user interface (UI). This tool is easily adaptable to any type of business and helps to centralize warehouse information to improve inventory management efficiency from any point or device"
           image: /images/projects/Muebleria-1.png
