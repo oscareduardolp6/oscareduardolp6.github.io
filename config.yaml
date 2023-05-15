@@ -80,7 +80,7 @@ languages:
         - identifier: education 
           name: Education 
           title: Education 
-          url: /en/#experience
+          url: /en/#education
           wight: 3
         - identifier: contact 
           name: Contact 
