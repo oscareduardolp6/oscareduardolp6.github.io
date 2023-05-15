@@ -472,6 +472,23 @@ languages:
       title: "Proyectos"
       enable: true
       items: 
+        - title: "Librería para calcular los días de pago"
+          content: "Creando una aplicación que me ayudara a conocer cuánto dinero tenía que ahorrar 
+          cada vez que me pagaban en el trabajo, me tope con que no había ninguna librería que me 
+          brindara la funcionalidad de saber cuáles son los días que se pagan y cuántos de esos habría 
+          entre dos fechas, tomando esto en cuenta y creyendo que tal vez a alguien más le podría ser 
+          útil desarrollé está librería"
+          image: https://somospnt.com/images/blog/cover/Que_es_npm.png
+          badges: 
+            - "npm"
+            - "Typescript"
+            - "Library"
+            - "Node" 
+          links:
+            - icon: fab fa-github 
+              url: https://github.com/oscareduardolp6/semimonthly-paydays-ts
+            - icon: fab fa-node 
+              url: https://www.npmjs.com/package/semimonthly-paydays-ts
         - title: "Manejador de Inventario y ventas para JM Mublería"
           content: "He desarrollado una herramienta de gestión de inventario para una mueblería utilizando Deno en TypeScript para el servidor y React y Electron para la interfaz de usuario (UI). Esta herramienta es fácilmente adaptable a cualquier tipo de negocio y ayuda a centralizar la información del almacén para mejorar la eficiencia en la gestión de inventario desde cualquier punto o dispositivo"
           image: /images/projects/Muebleria-1.png
