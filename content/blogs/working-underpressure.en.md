@@ -3,6 +3,7 @@ title: "Working Under Pressure 🤯"
 date: 2023-12-30T17:00:00-06:00
 draft: false 
 author: "Oscar López"
+image: /images/articles/working-underpressure.png
 tags:
   - Work
   - Software Development
