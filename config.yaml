@@ -218,6 +218,23 @@ languages:
             - *Punto Azul* (Sales Software developed by [Aldo López](https://www.linkedin.com/in/aldo-l%C3%B3pez-868b10221/) & **Andrés Sierra**) Tester. 
             - 1° Place team in my institution in the **Cundinamarca University Hackathon** .
             - Proposal for redesign of the University Students Site. 
+        - title: "Certifications"
+          school: 
+            name: "EDTeam"
+            url: "https://ed.team/"
+          date: "2021"
+          content: |-
+            - <a href="/docs/Certifications/CertificadoGolang.png" download="/docs/Certifications/CertificadoGolang.png">Go Curse 🔗</a> 
+        - title: "Certifications"
+          school: 
+            name: "Codely"
+            url: "https://codely.com/"
+          date: "2023"
+          content: |-
+            - <a href="/docs/Certifications/Codely/cqrs-command-query-responsibility-segregation.pdf" download="/docs/Certifications/Codely/cqrs-command-query-responsibility-segregation.pdf">CQRS Curse 🔗</a> 
+            - <a href="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf" download="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf">Frontend Hexagonal Architecture Curse 🔗</a> 
+            - <a href="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf" download="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf">Domain Model: Value Objects Curse 🔗</a> 
+            - <a href="/docs/Certifications/Codely/principios-solid-aplicados.pdf" download="/docs/Certifications/Codely/principios-solid-aplicados.pdf">SOLID Applied Curse 🔗</a> 
     achievements: 
       enable: false 
       items: 
@@ -458,13 +475,27 @@ languages:
             - Equipo 1° Lugar dentro del instituto en el **Hackaton de la Universidad 
             Cundinamarca** . 
             - Propuesta para rediseño del sitio estudiantil de la *institución*. 
+        - title: "Certificaciones"
+          school: 
+            name: "EDTeam"
+            url: "https://ed.team/"
+          date: "2021"
+          content: |-
+            - <a href="/docs/Certifications/CertificadoGolang.png" download="/docs/Certifications/CertificadoGolang.png">Curso de Go 🔗</a> 
+        - title: "Certificaciones"
+          school: 
+            name: "Codely"
+            url: "https://codely.com/"
+          date: "2023"
+          content: |-
+            - <a href="/docs/Certifications/Codely/cqrs-command-query-responsibility-segregation.pdf" download="/docs/Certifications/Codely/cqrs-command-query-responsibility-segregation.pdf">Curso de CQRS 🔗</a> 
+            - <a href="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf" download="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf">Curso Arquitectura Hexagonal en Frontend 🔗</a> 
+            - <a href="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf" download="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf">Curso Modelado del dominio con Value Objects 🔗</a> 
+            - <a href="/docs/Certifications/Codely/principios-solid-aplicados.pdf" download="/docs/Certifications/Codely/principios-solid-aplicados.pdf">Curso Principios SOLID aplicados 🔗</a> 
     achievements: 
       title: "Logros"
       enable: false 
       items:
-        - title: Go desde cero 
-          content: Certificado de terminación del Curso básico de Go
-          url: /docs/Certifications/CertificadoGolang.png
         - title: Mis ejercicios de programación 
           content: Ejercicios de programación en LeetCode 
           url: https://leetcode.com/oscareduardolp6/  
