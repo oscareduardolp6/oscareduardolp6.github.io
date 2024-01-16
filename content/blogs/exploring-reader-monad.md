@@ -1,6 +1,6 @@
 ---
 title: "La Monada Reader en Acción 📖"
-date: 2024-01-16T14:00:00-06:00
+date: 2024-01-16T19:00:00-06:00
 draft: false
 author: "Oscar López" 
 image: /images/articles/exploring-reader-monad.png
