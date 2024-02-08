@@ -39,18 +39,19 @@ For me, one of the most important features of Obsidian is its ability to link no
 It works like this: imagine you're learning to program, and you've just learned about Hash Tables. You saw that Hash Tables are like **objects** in _Javascript_ and **dictionaries** in _Python_.
 
 So, the note you write would look something like this:
-![Hash Table Note](/images/articles/Obsidian-introduction/HashTable-en.png)
+<img src="/images/articles/Obsidian-introduction/HashTable-en.png" alt="Hash Table Note" style="max-width: 100%">
 
 
 As you can see, _Javascript Objects_ are enclosed in `[[ ]]`, because it's a link to another note, a note about objects in Javascript.
 
 Then, with Obsidian, we can see the graph of note relationships; for the Hash Table, it would look like this:
 
-![Relations between Hash Table Note, Javascript Objects & Python Dictionaries](/images/articles/Obsidian-introduction/HashTable-graph-en.png)
+<img src="/images/articles/Obsidian-introduction/HashTable-graph-en.png" alt="Relations between Hash Table Note, Javascript Objects & Python Dictionaries" style="max-width:100%">
 
 We see how this note is related to the 2 notes about objects and dictionaries, respectively. But not only that, if we increase the depth of the graph...
 
-![Relations between Hash Table Note, Javascript Objects & Python Dictionaries, and deeply beetween Javascript & Python](/images/articles/Obsidian-introduction/graph-en-2.png)
+<img src="/images/articles/Obsidian-introduction/graph-en-2.png" alt="Relations between Hash Table Note, Javascript Objects & Python Dictionaries, and deeply beetween Javascript & Python" style="max-width:100%">
+
 
 We'll see that at a second level, it's related to notes about Javascript and Python.
 

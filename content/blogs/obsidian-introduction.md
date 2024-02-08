@@ -37,19 +37,19 @@ Funciona de la siguiente manera, imagina que estás aprendiendo a programar, y a
 
 Entonces la nota que escribes ser vería algo así.
 
+<img src="/images/articles/Obsidian-introduction/HashTable-es.png" alt="Nota de la tabla hash" style="max-width:100%">
 
-![Nota de la tabla hash](/images/articles/Obsidian-introduction/HashTable-es.png)
 
 Como puedes ver, *Objetos en Javascript* está encerrado entre `[[]]`, esto es porque es un enlace a otra nota, una nota que habla sobre los objetos en Javascript. 
 
 Entonces, con **Obsidian** podemos ver el *gráfico* de relación de las notas, para la *Tabla Hash* sería así. 
 
-![Grafo de relaciones entre Hashtable, objetos en javascript y los diccionarios en python](/images/articles/Obsidian-introduction/HashTable-graph-es.png)
+<img src="/images/articles/Obsidian-introduction/HashTable-graph-es.png" alt="Grafo de relaciones entre Hashtable, objetos en javascript y los diccionarios en python" style="max-width:100%">
 
 
 Vemos como esta nota se relaciona con las 2 notas sobre los objetos y los diccionarios respectivamente, pero no solo eso, si aumentamos la *profundidad* del gráfico... 
 
-![Grafo de relaciones entre Hashtable, objetos en javascript y los diccionarios en python](/images/articles/Obsidian-introduction/HashTable-graph-2-es.png)
+<img src="/images/articles/Obsidian-introduction/HashTable-graph-2-es.png" alt="Grafo de relaciones entre Hashtable, objetos en javascript y los diccionarios en python y a su vez la relación de estos 2 temas con cada lenguaje respectivamente" style="max-width:100%">
 
 Veremos que en un segundo nivel está *relacionada* con las notas acerca de *Javascript* y *Python*. 
 
