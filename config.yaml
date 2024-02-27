@@ -137,7 +137,7 @@ languages:
       items: 
         - job: "Web Developer"
           company: "Educafin"
-          date: "March 2020 - December 2021"
+          date: "November 2019 - December 2021"
           info: 
             enable: false 
           featuredLink: 
@@ -394,7 +394,7 @@ languages:
       items: 
         - job: "Desarrollador Web"
           company: "Educafin"
-          date: "Marzo 2020 - Diciembre 2021"
+          date: "Noviembre 2019 - Diciembre 2021"
           info: 
             enable: false 
           featuredLink: 
