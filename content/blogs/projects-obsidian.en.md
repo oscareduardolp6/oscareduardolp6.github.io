@@ -1,6 +1,6 @@
 ---
 title: "🚀 Obsidian: Projects"
-date: 2024-03-12
+date: 2024-03-13
 draft: false
 author: "Oscar López" 
 image: /images/articles/Obsidian-projects/cover-en.png
