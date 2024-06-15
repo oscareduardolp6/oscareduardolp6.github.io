@@ -11,8 +11,6 @@ tags:
 
 ---
 
-# 🧱 Immutability
-
 Recently at work, I had to *deal* with a codebase that lacked immutability almost entirely. I have been trying to get closer to concepts and practices from the functional programming world, especially *immutability*, so when making changes to the code, I missed this feature a lot. I believe it has many advantages, which we will address in this article.
 
 ## ❔ What is Immutability?
