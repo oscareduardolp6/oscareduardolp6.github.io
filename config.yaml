@@ -59,274 +59,275 @@ languages:
   en: 
     languageName: English
     weight: 2 
-    description: Oscar Lopez Portfolio
-    Menus: 
-      main: 
-        - identifier: blog 
-          name: Blog
-          title: Blog posts 
-          url: /en/blogs
-          weight: 5 
-        - identifier: about 
-          name: About me 
-          title: About me 
-          url: /en/#about
-          wight: 1
-        - identifier: experience 
-          name: Experience 
-          title: Experience 
-          url: /en/#experience
-          wight: 2
-        - identifier: education 
-          name: Education 
-          title: Education 
-          url: /en/#education
-          wight: 3
-        - identifier: contact 
-          name: Contact 
-          title: Contact 
-          url: /en/#contact
-          wight: 4
-        - identifier: projects 
-          name: Projects 
-          title: Projects 
-          url: /en/#projects
-          wight: 5
-    hero: 
-      enable: true
-      intro: "Hi, I'm"
-      title: "Oscar Lopez"
-      subtitle: "Fullstack web developer"
-      content: "I'm a web developer specializing in corporate, industrial, and back-office solutions. My main focus is to create solutions that bring value to users. With my experience and skills in web development, I can help your company achieve its technological goals. My work speaks for itself, and I'm confident I can offer you quality solutions that meet your needs. If you're looking for a web developer with experience and a user-centered approach, I'm the right choice for your project."
-      image: /profile.jpg
-      button:
+    params: 
+      description: Oscar Lopez Portfolio
+      Menus: 
+        main: 
+          - identifier: blog 
+            name: Blog
+            title: Blog posts 
+            url: /en/blogs
+            weight: 5 
+          - identifier: about 
+            name: About me 
+            title: About me 
+            url: /en/#about
+            wight: 1
+          - identifier: experience 
+            name: Experience 
+            title: Experience 
+            url: /en/#experience
+            wight: 2
+          - identifier: education 
+            name: Education 
+            title: Education 
+            url: /en/#education
+            wight: 3
+          - identifier: contact 
+            name: Contact 
+            title: Contact 
+            url: /en/#contact
+            wight: 4
+          - identifier: projects 
+            name: Projects 
+            title: Projects 
+            url: /en/#projects
+            wight: 5
+      hero: 
         enable: true
-        name: "Resume"
-        url: "/docs/Resume.pdf"
-        download: true 
-      socialLinks: 
-        fontAwesomeIcons: 
-          - icon: fab fa-github
-            url: https://github.com/oscareduardolp6
-          - icon: fab fa-linkedin
-            url: https://www.linkedin.com/in/oscareduardolp6/
-    about: 
-      enable: true
-      title: "About me"
-      image: "/images/me.jpg"
-      content: |-
-        Born in *Naucalpan, Estado de México*, for a time I resided in *Monterrey, Nuevo Léon* and the last **nine years** I've lived in *León, Guanajuato*. 
+        intro: "Hi, I'm"
+        title: "Oscar Lopez"
+        subtitle: "Fullstack web developer"
+        content: "I'm a web developer specializing in corporate, industrial, and back-office solutions. My main focus is to create solutions that bring value to users. With my experience and skills in web development, I can help your company achieve its technological goals. My work speaks for itself, and I'm confident I can offer you quality solutions that meet your needs. If you're looking for a web developer with experience and a user-centered approach, I'm the right choice for your project."
+        image: /profile.jpg
+        button:
+          enable: true
+          name: "Resume"
+          url: "/docs/Resume.pdf"
+          download: true 
+        socialLinks: 
+          fontAwesomeIcons: 
+            - icon: fab fa-github
+              url: https://github.com/oscareduardolp6
+            - icon: fab fa-linkedin
+              url: https://www.linkedin.com/in/oscareduardolp6/
+      about: 
+        enable: true
+        title: "About me"
+        image: "/images/me.jpg"
+        content: |-
+          Born in *Naucalpan, Estado de México*, for a time I resided in *Monterrey, Nuevo Léon* and the last **nine years** I've lived in *León, Guanajuato*. 
 
-        Since a Young age my parents teach me an interes for knowing the details of how the things work, both computers & and people, leading me to some of my passions, *software development* and *ilusionism*, the last giving me an excuse to connect with people and a way to share emotions. 
+          Since a Young age my parents teach me an interes for knowing the details of how the things work, both computers & and people, leading me to some of my passions, *software development* and *ilusionism*, the last giving me an excuse to connect with people and a way to share emotions. 
 
-        My **professional goal** es create scalable and high quality software with techs that exites me and teach me. 
-      skills: 
+          My **professional goal** es create scalable and high quality software with techs that exites me and teach me. 
+        skills: 
+          enable: true 
+          title: "Technologies"
+          items: 
+            - "Design Patters"
+            - "React (With Typescript)"
+            - "Angular / AngularJS"
+            - ".NET with C# & VB"
+            - "Node / Deno / Bun"
+            - "Python"
+            - "SQL / Transact-SQL"
+            - "Go"
+      experience: 
         enable: true 
-        title: "Technologies"
         items: 
-          - "Design Patters"
-          - "React (With Typescript)"
-          - "Angular / AngularJS"
-          - ".NET with C# & VB"
-          - "Node / Deno / Bun"
-          - "Python"
-          - "SQL / Transact-SQL"
-          - "Go"
-    experience: 
-      enable: true 
-      items: 
-        - job: "Web Developer"
-          company: "Educafin"
-          date: "November 2019 - December 2021"
-          info: 
-            enable: false 
-          featuredLink: 
-            enable: false 
-          content: |-
-            Part of the **SOS Inspira** platform development team, designed 
-            to manage the mentoring program. 
+          - job: "Web Developer"
+            company: "Educafin"
+            date: "November 2019 - December 2021"
+            info: 
+              enable: false 
+            featuredLink: 
+              enable: false 
+            content: |-
+              Part of the **SOS Inspira** platform development team, designed 
+              to manage the mentoring program. 
 
-            Build with `PHP` & `CodeIgniter`, `MariaDB` as *Database* And `Vue` 
-            on the *Frontend*. 
+              Build with `PHP` & `CodeIgniter`, `MariaDB` as *Database* And `Vue` 
+              on the *Frontend*. 
 
-            I was also involved in the initial development of the platform 
-            **JuventudesGTO**, designed for the research area. 
-        - job: "Software Project Developer"
-          company: "Proservicio"
-          companyUrl: "https://www.serviacero.com/proservicio"
-          date: "October 2020 - March 2022"
-          featuredLink: 
-            enable: false
-          info: 
-            enable: false 
-          content: |- 
-            Part of the **Software Project Development Team**. 
-            A company focused in generate software to both *web* and *custom 
-            modules* for the *ERP*, specifically designed for each specialitie 
-            of the [Serviacero Group](https://serviacero.com/). 
+              I was also involved in the initial development of the platform 
+              **JuventudesGTO**, designed for the research area. 
+          - job: "Software Project Developer"
+            company: "Proservicio"
+            companyUrl: "https://www.serviacero.com/proservicio"
+            date: "October 2020 - March 2022"
+            featuredLink: 
+              enable: false
+            info: 
+              enable: false 
+            content: |- 
+              Part of the **Software Project Development Team**. 
+              A company focused in generate software to both *web* and *custom 
+              modules* for the *ERP*, specifically designed for each specialitie 
+              of the [Serviacero Group](https://serviacero.com/). 
 
-            I worked in the development of the *Carta Porte(SAT)* project. 
+              I worked in the development of the *Carta Porte(SAT)* project. 
 
-            **Technologies** 
-            - .NET 
-            - React With Typescript 
-            - Progress 4GL 
-            - SQL  
+              **Technologies** 
+              - .NET 
+              - React With Typescript 
+              - Progress 4GL 
+              - SQL  
 
-        - job: ".Net & Winforms Developer"
-          company: "IROX IT"
-          companyUrl: "http://iroxit.com/"
-          date: "March 2022 - August 2022"
-          info: 
-            enable: false 
-          featuredLink: 
-            enable: false 
-          content: |- 
-            Developer in the *Supplier Assistance team*. 
+          - job: ".Net & Winforms Developer"
+            company: "IROX IT"
+            companyUrl: "http://iroxit.com/"
+            date: "March 2022 - August 2022"
+            info: 
+              enable: false 
+            featuredLink: 
+              enable: false 
+            content: |- 
+              Developer in the *Supplier Assistance team*. 
 
-            Centered on  developing modules for the internal management
-            application of providers. 
+              Centered on  developing modules for the internal management
+              application of providers. 
 
-            Made with *frontend* in *Winforms* and *backend* in *.Net Services*. 
-        - job: ".NET & Web Developer"
-          company: "IROX IT"
-          companyUrl: "http://iroxit.com/"
-          date: "August 2022 - Present"
-          info:
-            enable: false 
-          featuredLink: 
-            enable: false 
-          content: |- 
-            Currently part of the **Damage** team at **[HDI Seguros](https://www.hdi.com.mx/)** as 
-            developer from the consulting firm [IROX IT](http://iroxit.com/). 
+              Made with *frontend* in *Winforms* and *backend* in *.Net Services*. 
+          - job: ".NET & Web Developer"
+            company: "IROX IT"
+            companyUrl: "http://iroxit.com/"
+            date: "August 2022 - Present"
+            info:
+              enable: false 
+            featuredLink: 
+              enable: false 
+            content: |- 
+              Currently part of the **Damage** team at **[HDI Seguros](https://www.hdi.com.mx/)** as 
+              developer from the consulting firm [IROX IT](http://iroxit.com/). 
 
-            I develop modules & functionalities for the *internal web application of 
-            quoting and issuance policies*. 
+              I develop modules & functionalities for the *internal web application of 
+              quoting and issuance policies*. 
 
-            *Microservices* in `.NET` and *frontend* in `Angular`. 
-    education: 
-      enable: true 
-      title: Education 
-      items: 
-        - title: "Software Engineer"
-          school:
-            name: "Instituto Tecnológico de León"
-            url: "https://leon.tecnm.mx/"
-          date: "2017 - 2022"
-          content: |- 
-            **Extracurricular activities** 
-            - *Punto Azul* (Sales Software developed by [Aldo López](https://www.linkedin.com/in/aldo-l%C3%B3pez-868b10221/) & **Andrés Sierra**) Tester. 
-            - 1° Place team in my institution in the **Cundinamarca University Hackathon** .
-            - Proposal for redesign of the University Students Site. 
-        - title: "Certifications"
-          school: 
-            name: "EDTeam"
-            url: "https://ed.team/"
-          date: "2021"
-          content: |-
-            - <a href="/docs/Certifications/CertificadoGolang.png" download="/docs/Certifications/CertificadoGolang.png">Go Curse 🔗</a> 
-        - title: "Certifications"
-          school: 
-            name: "Codely"
-            url: "https://codely.com/"
-          date: "2023"
-          content: |-
-            - <a href="/docs/Certifications/Codely/cqrs-command-query-responsibility-segregation.pdf" download="/docs/Certifications/Codely/cqrs-command-query-responsibility-segregation.pdf">CQRS Curse 🔗</a> 
-            - <a href="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf" download="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf">Frontend Hexagonal Architecture Curse 🔗</a> 
-            - <a href="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf" download="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf">Domain Model: Value Objects Curse 🔗</a> 
-            - <a href="/docs/Certifications/Codely/principios-solid-aplicados.pdf" download="/docs/Certifications/Codely/principios-solid-aplicados.pdf">SOLID Applied Curse 🔗</a> 
-    achievements: 
-      enable: false 
-      items: 
-        - title: Go from scratch 
-          content: Go Basic Course Completion Certificate
-          url: /docs/Certifications/CertificadoGolang.png
-        - title: Programming Exercises 
-          content: Programming Exercises in LeetCode 
-          url: https://leetcode.com/oscareduardolp6/  
-    projects: 
-      enable: true 
-      items: 
-        - title: "Semimonthly Paydays Library"
-          content: "Creating an application that would help me know how much money I had to save each time I got paid at work, 
-          I came across the fact that there was no library that provided me with the functionality to determine the paydays 
-          and how many of those would be between two dates. Taking this into account and believing that perhaps someone else 
-          could find it useful, I developed this library."
-          image: https://somospnt.com/images/blog/cover/Que_es_npm.png
-          badges: 
-            - "npm"
-            - "Typescript"
-            - "Library"
-            - "Node" 
-          links:
-            - icon: fab fa-github 
-              url: https://github.com/oscareduardolp6/semimonthly-paydays-ts
-            - icon: fab fa-node 
-              url: https://www.npmjs.com/package/semimonthly-paydays-ts
-        # - title: "Sales & Inventory Manager for JM Mueblería"
-        #   content: "I have developed an inventory management tool for a furniture store using Deno in TypeScript for the server and React and Electron for the user interface (UI). This tool is easily adaptable to any type of business and helps to centralize warehouse information to improve inventory management efficiency from any point or device"
-        #   image: /images/projects/Muebleria-1.png
-        #   badges: 
-        #     - "Deno"
-        #     - "Typescript"
-        #     - "React"
-        #     - "Electron"
-        #   links: 
-        #     - icon: fab fa-facebook
-        #       url: https://www.facebook.com/JMuebleria
-        #       tooltip: JM Mueblería
-        #     - icon: fab fa-github
-        #       url: https://github.com/oscareduardolp6/muebleria
-        #       tooltip: Frontend
-        #     - icon: fab fa-github
-        #       url: https://github.com/oscareduardolp6/Share
-        #       tooltip: Share Code 
-        #     - icon: fab fa-github 
-        #       url: https://github.com/oscareduardolp6/Owl_Sales_Point_Back 
-        #       tooltip: Backend 
-        - title: "Memory Trainer"
-          content: "My memory training project is designed to enhance my retention
-          of information. The project prompts me to recall a list of words in a 
-          specific order and repeat them back in the same sequence. 
-          The program provides instant feedback to assess the accuracy of my recall, 
-          allowing me to adjust the word list if I struggle with certain words. 
-          By regularly practicing with this tool, I aim to improve my cognitive 
-          performance in various areas of my life"
-          image: /images/projects/memory-trainer-7.png
-          featured: 
-            name: Demo 
-            link: /memory-project
-          badges: 
-            - "React"
-            - "CSS"
-            - "Valtio"
-          links: 
-            - icon: fab fa-github
-              url: https://github.com/oscareduardolp6/memory-project-stack-1
-              tooltip: Repository
-        - title: "Random Words Generator Go API"
-          content: "I have created an API for generating random Spanish words using Go. 
-          The API provides a simple and effective way to improve one's Spanish vocabulary, 
-          by generating random Spanish words that users can use in various contexts. 
-          The API is open source and available for anyone who wishes to use it to improve their Spanish vocabulary 
-          for free"
-          image: https://imgs.search.brave.com/44nPwKMaZRb3vGjLO04gcs1xxgAxSd8YgH1UpJxj6bI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNDQ4/Mjc0Mi5qcGc
-          featured: 
-            name: Demo 
-            link: https://random-spanish-words.onrender.com/
-          badges: 
-            - "Go" 
-          links: 
-            - icon: fab fa-github
-              url: https://github.com/oscareduardolp6/random-spanish-words-api-go
-              tooltip: Repository
-    contact:
-      enable: true 
-      content: Get in Touch 
-      email: oscareduardolp6@gmail.com
-      btnName: Email
-      whatsapp: 524773010668
-    footer: 
+              *Microservices* in `.NET` and *frontend* in `Angular`. 
+      education: 
+        enable: true 
+        title: Education 
+        items: 
+          - title: "Software Engineer"
+            school:
+              name: "Instituto Tecnológico de León"
+              url: "https://leon.tecnm.mx/"
+            date: "2017 - 2022"
+            content: |- 
+              **Extracurricular activities** 
+              - *Punto Azul* (Sales Software developed by [Aldo López](https://www.linkedin.com/in/aldo-l%C3%B3pez-868b10221/) & **Andrés Sierra**) Tester. 
+              - 1° Place team in my institution in the **Cundinamarca University Hackathon** .
+              - Proposal for redesign of the University Students Site. 
+          - title: "Certifications"
+            school: 
+              name: "EDTeam"
+              url: "https://ed.team/"
+            date: "2021"
+            content: |-
+              - <a href="/docs/Certifications/CertificadoGolang.png" download="/docs/Certifications/CertificadoGolang.png">Go Curse 🔗</a> 
+          - title: "Certifications"
+            school: 
+              name: "Codely"
+              url: "https://codely.com/"
+            date: "2023"
+            content: |-
+              - <a href="/docs/Certifications/Codely/cqrs-command-query-responsibility-segregation.pdf" download="/docs/Certifications/Codely/cqrs-command-query-responsibility-segregation.pdf">CQRS Curse 🔗</a> 
+              - <a href="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf" download="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf">Frontend Hexagonal Architecture Curse 🔗</a> 
+              - <a href="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf" download="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf">Domain Model: Value Objects Curse 🔗</a> 
+              - <a href="/docs/Certifications/Codely/principios-solid-aplicados.pdf" download="/docs/Certifications/Codely/principios-solid-aplicados.pdf">SOLID Applied Curse 🔗</a> 
+      achievements: 
+        enable: false 
+        items: 
+          - title: Go from scratch 
+            content: Go Basic Course Completion Certificate
+            url: /docs/Certifications/CertificadoGolang.png
+          - title: Programming Exercises 
+            content: Programming Exercises in LeetCode 
+            url: https://leetcode.com/oscareduardolp6/  
+      projects: 
+        enable: true 
+        items: 
+          - title: "Semimonthly Paydays Library"
+            content: "Creating an application that would help me know how much money I had to save each time I got paid at work, 
+            I came across the fact that there was no library that provided me with the functionality to determine the paydays 
+            and how many of those would be between two dates. Taking this into account and believing that perhaps someone else 
+            could find it useful, I developed this library."
+            image: https://somospnt.com/images/blog/cover/Que_es_npm.png
+            badges: 
+              - "npm"
+              - "Typescript"
+              - "Library"
+              - "Node" 
+            links:
+              - icon: fab fa-github 
+                url: https://github.com/oscareduardolp6/semimonthly-paydays-ts
+              - icon: fab fa-node 
+                url: https://www.npmjs.com/package/semimonthly-paydays-ts
+          # - title: "Sales & Inventory Manager for JM Mueblería"
+          #   content: "I have developed an inventory management tool for a furniture store using Deno in TypeScript for the server and React and Electron for the user interface (UI). This tool is easily adaptable to any type of business and helps to centralize warehouse information to improve inventory management efficiency from any point or device"
+          #   image: /images/projects/Muebleria-1.png
+          #   badges: 
+          #     - "Deno"
+          #     - "Typescript"
+          #     - "React"
+          #     - "Electron"
+          #   links: 
+          #     - icon: fab fa-facebook
+          #       url: https://www.facebook.com/JMuebleria
+          #       tooltip: JM Mueblería
+          #     - icon: fab fa-github
+          #       url: https://github.com/oscareduardolp6/muebleria
+          #       tooltip: Frontend
+          #     - icon: fab fa-github
+          #       url: https://github.com/oscareduardolp6/Share
+          #       tooltip: Share Code 
+          #     - icon: fab fa-github 
+          #       url: https://github.com/oscareduardolp6/Owl_Sales_Point_Back 
+          #       tooltip: Backend 
+          - title: "Memory Trainer"
+            content: "My memory training project is designed to enhance my retention
+            of information. The project prompts me to recall a list of words in a 
+            specific order and repeat them back in the same sequence. 
+            The program provides instant feedback to assess the accuracy of my recall, 
+            allowing me to adjust the word list if I struggle with certain words. 
+            By regularly practicing with this tool, I aim to improve my cognitive 
+            performance in various areas of my life"
+            image: /images/projects/memory-trainer-7.png
+            featured: 
+              name: Demo 
+              link: /memory-project
+            badges: 
+              - "React"
+              - "CSS"
+              - "Valtio"
+            links: 
+              - icon: fab fa-github
+                url: https://github.com/oscareduardolp6/memory-project-stack-1
+                tooltip: Repository
+          - title: "Random Words Generator Go API"
+            content: "I have created an API for generating random Spanish words using Go. 
+            The API provides a simple and effective way to improve one's Spanish vocabulary, 
+            by generating random Spanish words that users can use in various contexts. 
+            The API is open source and available for anyone who wishes to use it to improve their Spanish vocabulary 
+            for free"
+            image: https://imgs.search.brave.com/44nPwKMaZRb3vGjLO04gcs1xxgAxSd8YgH1UpJxj6bI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNDQ4/Mjc0Mi5qcGc
+            featured: 
+              name: Demo 
+              link: https://random-spanish-words.onrender.com/
+            badges: 
+              - "Go" 
+            links: 
+              - icon: fab fa-github
+                url: https://github.com/oscareduardolp6/random-spanish-words-api-go
+                tooltip: Repository
+      contact:
+        enable: true 
+        content: Get in Touch 
+        email: oscareduardolp6@gmail.com
+        btnName: Email
+        whatsapp: 524773010668
+      footer: 
       recentPosts: true 
       socialNetworks:
         github: https://github.com/oscareduardolp6
@@ -338,255 +339,256 @@ languages:
   es: 
     languageName: Spanish 
     weight: 1
-    hero: 
-      enable: true
-      intro: "Hola, soy"
-      title: "Oscar López"
-      subtitle: "Desarrollador web fullstack"
-      content: "Soy un desarrollador web especializado en soluciones corporativas, industriales y de back office. Con mi experiencia y habilidades en el desarrollo web, puedo ayudar a su empresa a alcanzar sus objetivos tecnológicos. Mi trabajo habla por sí mismo, y estoy seguro de que puedo ofrecerle soluciones de calidad que satisfagan sus necesidades. Si estás buscando un desarrollador web con experiencia y un enfoque centrado en el usuario, estoy seguro de que soy la elección correcta para tu proyecto" 
-      image: /profile.jpg
-      button:
+    params:
+      hero: 
         enable: true
-        name: "CV"
-        url: "/docs/CV.pdf"
-        download: true 
-      socialLinks: 
-        fontAwesomeIcons: 
-          - icon: fab fa-github
-            url: https://github.com/oscareduardolp6
-          - icon: fab fa-linkedin
-            url: https://www.linkedin.com/in/oscareduardolp6/
-    about: 
-      enable: true
-      title: "Sobre mí"
-      image: "/images/me.jpg"
-      content: |- 
-        Originario de *Naucalpan, Estado de México*, viví un tiempo en 
-        *Monterrey, Nuevo León* y desde hace **catorce años** vivo en *León, Guanajuato*. 
+        intro: "Hola, soy"
+        title: "Oscar López"
+        subtitle: "Desarrollador web fullstack"
+        content: "Soy un desarrollador web especializado en soluciones corporativas, industriales y de back office. Con mi experiencia y habilidades en el desarrollo web, puedo ayudar a su empresa a alcanzar sus objetivos tecnológicos. Mi trabajo habla por sí mismo, y estoy seguro de que puedo ofrecerle soluciones de calidad que satisfagan sus necesidades. Si estás buscando un desarrollador web con experiencia y un enfoque centrado en el usuario, estoy seguro de que soy la elección correcta para tu proyecto" 
+        image: /profile.jpg
+        button:
+          enable: true
+          name: "CV"
+          url: "/docs/CV.pdf"
+          download: true 
+        socialLinks: 
+          fontAwesomeIcons: 
+            - icon: fab fa-github
+              url: https://github.com/oscareduardolp6
+            - icon: fab fa-linkedin
+              url: https://www.linkedin.com/in/oscareduardolp6/
+      about: 
+        enable: true
+        title: "Sobre mí"
+        image: "/images/me.jpg"
+        content: |- 
+          Originario de *Naucalpan, Estado de México*, viví un tiempo en 
+          *Monterrey, Nuevo León* y desde hace **catorce años** vivo en *León, Guanajuato*. 
 
-        Desde jovén mis padres me inculcaron el interés por saber los detalles de 
-        cómo funcionan las cosas, desde las *computadoras* hasta las 
-        *mentes de las personas*, llevandome a mis pasiones, 
-        el *desarrollo de software* y el *ilusionismo*, este último dandome una 
-        excusa para conectar con las personas y transmitir emociones.
+          Desde jovén mis padres me inculcaron el interés por saber los detalles de 
+          cómo funcionan las cosas, desde las *computadoras* hasta las 
+          *mentes de las personas*, llevandome a mis pasiones, 
+          el *desarrollo de software* y el *ilusionismo*, este último dandome una 
+          excusa para conectar con las personas y transmitir emociones.
 
-        Mi **objetivo profesional** es crear software escalable y de calidad en 
-        tecnologías *modernas* que me divertan y enseñen.
+          Mi **objetivo profesional** es crear software escalable y de calidad en 
+          tecnologías *modernas* que me divertan y enseñen.
 
-      skills: 
+        skills: 
+          enable: true 
+          title: "Técnologías"
+          items: 
+            - "Patrones de diseño"
+            - "React (Con Typescript)"
+            - "Angular / AngularJS"
+            - ".NET con C# & VB"
+            - "Node / Deno / Bun"
+            - "Python"
+            - "SQL / Transact-SQL"
+            - "Go"
+            - "Electron"
+            - "Next.js"
+            # - "Typescript / Javascript"
+      experience: 
         enable: true 
-        title: "Técnologías"
+        title: Experiencia
         items: 
-          - "Patrones de diseño"
-          - "React (Con Typescript)"
-          - "Angular / AngularJS"
-          - ".NET con C# & VB"
-          - "Node / Deno / Bun"
-          - "Python"
-          - "SQL / Transact-SQL"
-          - "Go"
-          - "Electron"
-          - "Next.js"
-          # - "Typescript / Javascript"
-    experience: 
-      enable: true 
-      title: Experiencia
-      items: 
-        - job: "Desarrollador Web"
-          company: "Educafin"
-          date: "Noviembre 2019 - Diciembre 2021"
-          info: 
-            enable: false 
-          featuredLink: 
-            enable: false 
-          content: |-
-            Parte del equipo de desarrollo de la plataforma **SOS Inspira**, 
-            pensada para llevar el control del programa de mentores
-            y mentorados de la institución, construido en `PHP` con `Code Igniter`, 
-            `MariaDB` para base de datos y `Vue` en el 
-            *frontend*. 
+          - job: "Desarrollador Web"
+            company: "Educafin"
+            date: "Noviembre 2019 - Diciembre 2021"
+            info: 
+              enable: false 
+            featuredLink: 
+              enable: false 
+            content: |-
+              Parte del equipo de desarrollo de la plataforma **SOS Inspira**, 
+              pensada para llevar el control del programa de mentores
+              y mentorados de la institución, construido en `PHP` con `Code Igniter`, 
+              `MariaDB` para base de datos y `Vue` en el 
+              *frontend*. 
 
-            También estuve involucrado en el desarrollo inicial de la plataforma 
-            **JuventudesGTO**, pensada para el área de
-            investigación .
-        - job: "Desarrollador de proyectos de Software" 
-          company: "Proservicio"
-          companyUrl: "https://www.serviacero.com/proservicio"
-          date: "Octubre 2020 - Marzo 2022"
-          featuredLink:
-            enable: false
-          info: 
-            enable: false 
-          content: |- 
-            Fui parte del equipo de desarrollo de proyectos, la empresa enfocada
-            en generar software tanto *web*, como módulos para el *ERP* personalizados 
-            diseñados a la medida para cada una de las especialidades del [Grupo Serviacero](https://serviacero.com/). 
+              También estuve involucrado en el desarrollo inicial de la plataforma 
+              **JuventudesGTO**, pensada para el área de
+              investigación .
+          - job: "Desarrollador de proyectos de Software" 
+            company: "Proservicio"
+            companyUrl: "https://www.serviacero.com/proservicio"
+            date: "Octubre 2020 - Marzo 2022"
+            featuredLink:
+              enable: false
+            info: 
+              enable: false 
+            content: |- 
+              Fui parte del equipo de desarrollo de proyectos, la empresa enfocada
+              en generar software tanto *web*, como módulos para el *ERP* personalizados 
+              diseñados a la medida para cada una de las especialidades del [Grupo Serviacero](https://serviacero.com/). 
 
-            Participé en el desarrollo de integración del sistema de emisión de *Carta Porte*. 
+              Participé en el desarrollo de integración del sistema de emisión de *Carta Porte*. 
 
-            **Tecnologías** 
-            - .Net 
-            - React con Typescript 
-            - Progress 4GL 
-            - SQL 
-        - job: "Desarrollador .NET & Winforms"
-          company: "IROX IT"
-          companyUrl: "http://iroxit.com/"
-          date: "Marzo 2022 - Agosto 2022"
-          info: 
-            enable: false 
-          featuredLink: 
-            enable: false 
-          content: |- 
-            Desarrollador en el equipo de *Asistencia a proveedores* 
-            para **[HDI Seguros](https://www.hdi.com.mx/)**.
+              **Tecnologías** 
+              - .Net 
+              - React con Typescript 
+              - Progress 4GL 
+              - SQL 
+          - job: "Desarrollador .NET & Winforms"
+            company: "IROX IT"
+            companyUrl: "http://iroxit.com/"
+            date: "Marzo 2022 - Agosto 2022"
+            info: 
+              enable: false 
+            featuredLink: 
+              enable: false 
+            content: |- 
+              Desarrollador en el equipo de *Asistencia a proveedores* 
+              para **[HDI Seguros](https://www.hdi.com.mx/)**.
 
-            Enfocado a desarrollar módulos para el aplicativo interno de gestión 
-            a proveedores, manejando  el *frontend* con `Winforms` y el *backend* 
-            con servicios desarrollados en `.NET`. 
-        - job: "Desarrollador .NET y Web"
-          company: "IROX IT"
-          companyUrl: "http://iroxit.com/"
-          date: "Agosto 2022 - Presente"
-          info: 
-            enable: false 
-          featuredLink: 
-            enable: false 
-          content: |-
-            Actualmente soy parte del equipo de **Daños** de **[HDI Seguros](https://www.hdi.com.mx/)**
-            desde la consultora [IROX IT](http://iroxit.com/). 
+              Enfocado a desarrollar módulos para el aplicativo interno de gestión 
+              a proveedores, manejando  el *frontend* con `Winforms` y el *backend* 
+              con servicios desarrollados en `.NET`. 
+          - job: "Desarrollador .NET y Web"
+            company: "IROX IT"
+            companyUrl: "http://iroxit.com/"
+            date: "Agosto 2022 - Presente"
+            info: 
+              enable: false 
+            featuredLink: 
+              enable: false 
+            content: |-
+              Actualmente soy parte del equipo de **Daños** de **[HDI Seguros](https://www.hdi.com.mx/)**
+              desde la consultora [IROX IT](http://iroxit.com/). 
 
-            Participo desarrollando módulos y funcionalidades para la aplicación web interna de 
-            cotización y emisión de pólizas, *microservicios* en `.NET` y *frontend* en `Angular`. 
-    education: 
-      enable: true 
-      title: Educación 
-      items: 
-        - title: "Ingeniería en sistemas computacionales"
-          school: 
-            name: "Instituto Tecnológico de León"
-            url: "https://leon.tecnm.mx/"
-          date: "2017 - 2022"
-          content: |- 
-            **Actividades Extracurriculares** 
-            - Tester de **Punto Azul** Software de ventas desarrollado por 
-            *[Aldo López](https://www.linkedin.com/in/aldo-l%C3%B3pez-868b10221/)* 
-            y *Andrés Sierra*. 
-            - Equipo 1° Lugar dentro del instituto en el **Hackaton de la Universidad 
-            Cundinamarca** . 
-            - Propuesta para rediseño del sitio estudiantil de la *institución*. 
-        - title: "Certificaciones"
-          school: 
-            name: "EDTeam"
-            url: "https://ed.team/"
-          date: "2021"
-          content: |-
-            - <a href="/docs/Certifications/CertificadoGolang.png" download="/docs/Certifications/CertificadoGolang.png">Curso de Go 🔗</a> 
-        - title: "Certificaciones"
-          school: 
-            name: "Codely"
-            url: "https://codely.com/"
-          date: "2023"
-          content: |-
-            - <a href="/docs/Certifications/Codely/cqrs-command-query-responsibility-segregation.pdf" download="/docs/Certifications/Codely/cqrs-command-query-responsibility-segregation.pdf">Curso de CQRS 🔗</a> 
-            - <a href="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf" download="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf">Curso Arquitectura Hexagonal en Frontend 🔗</a> 
-            - <a href="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf" download="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf">Curso Modelado del dominio con Value Objects 🔗</a> 
-            - <a href="/docs/Certifications/Codely/principios-solid-aplicados.pdf" download="/docs/Certifications/Codely/principios-solid-aplicados.pdf">Curso Principios SOLID aplicados 🔗</a> 
-    achievements: 
-      title: "Logros"
-      enable: false 
-      items:
-        - title: Mis ejercicios de programación 
-          content: Ejercicios de programación en LeetCode 
-          url: https://leetcode.com/oscareduardolp6/  
-    projects: 
-      title: "Proyectos"
-      enable: true
-      items: 
-        - title: "Librería para calcular los días de pago"
-          content: "Creando una aplicación que me ayudara a conocer cuánto dinero tenía que ahorrar 
-          cada vez que me pagaban en el trabajo, me tope con que no había ninguna librería que me 
-          brindara la funcionalidad de saber cuáles son los días que se pagan y cuántos de esos habría 
-          entre dos fechas, tomando esto en cuenta y creyendo que tal vez a alguien más le podría ser 
-          útil desarrollé está librería"
-          image: https://somospnt.com/images/blog/cover/Que_es_npm.png
-          badges: 
-            - "npm"
-            - "Typescript"
-            - "Library"
-            - "Node" 
-          links:
-            - icon: fab fa-github 
-              url: https://github.com/oscareduardolp6/semimonthly-paydays-ts
-            - icon: fab fa-node 
-              url: https://www.npmjs.com/package/semimonthly-paydays-ts
-        # - title: "Manejador de Inventario y ventas para JM Mublería"
-        #   content: "He desarrollado una herramienta de gestión de inventario para una mueblería utilizando Deno en TypeScript para el servidor y React y Electron para la interfaz de usuario (UI). Esta herramienta es fácilmente adaptable a cualquier tipo de negocio y ayuda a centralizar la información del almacén para mejorar la eficiencia en la gestión de inventario desde cualquier punto o dispositivo"
-        #   image: /images/projects/Muebleria-1.png
-        #   badges: 
-        #     - "Deno"
-        #     - "Typescript"
-        #     - "React"
-        #     - "Electron"
-        #   links: 
-        #     - icon: fab fa-facebook
-        #       url: https://www.facebook.com/JMuebleria
-        #       tooltip: JM Mueblería
-        #     - icon: fab fa-github
-        #       url: https://github.com/oscareduardolp6/muebleria
-        #       tooltip: Frontend
-        #     - icon: fab fa-github
-        #       url: https://github.com/oscareduardolp6/Share
-        #       tooltip: Share Code 
-        #     - icon: fab fa-github 
-        #       url: https://github.com/oscareduardolp6/Owl_Sales_Point_Back 
-        #       tooltip: Backend 
-        - title: "Entrenador de memoria"
-          content: "He creado un proyecto de entrenamiento de memoria para mejorar 
-          mi capacidad de retener información. 
-          El objetivo es recordar una lista de palabras en un orden específico y 
-          repetirlas en el mismo orden. El programa proporciona retroalimentación 
-          inmediata sobre la precisión de la repetición y permite al usuario actualizar 
-          la lista de palabras en caso de dificultad. Esta herramienta puede ser 
-          útil para cualquier persona que desee mejorar su capacidad de retener 
-          información y es fácil de usar"
-          image: /images/projects/memory-trainer-7.png
-          featured: 
-            name: Demo 
-            link: /memory-project
-          badges: 
-            - "React"
-            - "CSS"
-            - "Valtio"
-          links: 
-            - icon: fab fa-github
-              url: https://github.com/oscareduardolp6/memory-project-stack-1
-              tooltip: Repository
-        - title: "API de palabras aleatorias"
-          content: "He creado una API de generación de palabras aleatorias en español utilizando Go. 
-          La API ofrece una forma sencilla y efectiva de mejorar el vocabulario en español, 
-          generando palabras aleatorias en español que los usuarios pueden utilizar en diferentes contextos. 
-          La API es de código abierto y está disponible para cualquier persona que desee utilizarla y 
-          mejorar su español de manera gratuita"
-          image: https://imgs.search.brave.com/44nPwKMaZRb3vGjLO04gcs1xxgAxSd8YgH1UpJxj6bI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNDQ4/Mjc0Mi5qcGc
-          featured: 
-            name: Demo 
-            link: https://random-spanish-words.onrender.com/
-          badges: 
-            - "Go" 
-          links: 
-            - icon: fab fa-github
-              url: https://github.com/oscareduardolp6/random-spanish-words-api-go
-              tooltip: Repository
-          
-    contact: 
-      title: Contacto
-      enable: true 
-      content: No dudes en contactarme :) 
-      email: oscareduardolp6@gmail.com
-      btnName: Email
-      whatsapp: 524773010668
-    footer: 
+              Participo desarrollando módulos y funcionalidades para la aplicación web interna de 
+              cotización y emisión de pólizas, *microservicios* en `.NET` y *frontend* en `Angular`. 
+      education: 
+        enable: true 
+        title: Educación 
+        items: 
+          - title: "Ingeniería en sistemas computacionales"
+            school: 
+              name: "Instituto Tecnológico de León"
+              url: "https://leon.tecnm.mx/"
+            date: "2017 - 2022"
+            content: |- 
+              **Actividades Extracurriculares** 
+              - Tester de **Punto Azul** Software de ventas desarrollado por 
+              *[Aldo López](https://www.linkedin.com/in/aldo-l%C3%B3pez-868b10221/)* 
+              y *Andrés Sierra*. 
+              - Equipo 1° Lugar dentro del instituto en el **Hackaton de la Universidad 
+              Cundinamarca** . 
+              - Propuesta para rediseño del sitio estudiantil de la *institución*. 
+          - title: "Certificaciones"
+            school: 
+              name: "EDTeam"
+              url: "https://ed.team/"
+            date: "2021"
+            content: |-
+              - <a href="/docs/Certifications/CertificadoGolang.png" download="/docs/Certifications/CertificadoGolang.png">Curso de Go 🔗</a> 
+          - title: "Certificaciones"
+            school: 
+              name: "Codely"
+              url: "https://codely.com/"
+            date: "2023"
+            content: |-
+              - <a href="/docs/Certifications/Codely/cqrs-command-query-responsibility-segregation.pdf" download="/docs/Certifications/Codely/cqrs-command-query-responsibility-segregation.pdf">Curso de CQRS 🔗</a> 
+              - <a href="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf" download="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf">Curso Arquitectura Hexagonal en Frontend 🔗</a> 
+              - <a href="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf" download="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf">Curso Modelado del dominio con Value Objects 🔗</a> 
+              - <a href="/docs/Certifications/Codely/principios-solid-aplicados.pdf" download="/docs/Certifications/Codely/principios-solid-aplicados.pdf">Curso Principios SOLID aplicados 🔗</a> 
+      achievements: 
+        title: "Logros"
+        enable: false 
+        items:
+          - title: Mis ejercicios de programación 
+            content: Ejercicios de programación en LeetCode 
+            url: https://leetcode.com/oscareduardolp6/  
+      projects: 
+        title: "Proyectos"
+        enable: true
+        items: 
+          - title: "Librería para calcular los días de pago"
+            content: "Creando una aplicación que me ayudara a conocer cuánto dinero tenía que ahorrar 
+            cada vez que me pagaban en el trabajo, me tope con que no había ninguna librería que me 
+            brindara la funcionalidad de saber cuáles son los días que se pagan y cuántos de esos habría 
+            entre dos fechas, tomando esto en cuenta y creyendo que tal vez a alguien más le podría ser 
+            útil desarrollé está librería"
+            image: https://somospnt.com/images/blog/cover/Que_es_npm.png
+            badges: 
+              - "npm"
+              - "Typescript"
+              - "Library"
+              - "Node" 
+            links:
+              - icon: fab fa-github 
+                url: https://github.com/oscareduardolp6/semimonthly-paydays-ts
+              - icon: fab fa-node 
+                url: https://www.npmjs.com/package/semimonthly-paydays-ts
+          # - title: "Manejador de Inventario y ventas para JM Mublería"
+          #   content: "He desarrollado una herramienta de gestión de inventario para una mueblería utilizando Deno en TypeScript para el servidor y React y Electron para la interfaz de usuario (UI). Esta herramienta es fácilmente adaptable a cualquier tipo de negocio y ayuda a centralizar la información del almacén para mejorar la eficiencia en la gestión de inventario desde cualquier punto o dispositivo"
+          #   image: /images/projects/Muebleria-1.png
+          #   badges: 
+          #     - "Deno"
+          #     - "Typescript"
+          #     - "React"
+          #     - "Electron"
+          #   links: 
+          #     - icon: fab fa-facebook
+          #       url: https://www.facebook.com/JMuebleria
+          #       tooltip: JM Mueblería
+          #     - icon: fab fa-github
+          #       url: https://github.com/oscareduardolp6/muebleria
+          #       tooltip: Frontend
+          #     - icon: fab fa-github
+          #       url: https://github.com/oscareduardolp6/Share
+          #       tooltip: Share Code 
+          #     - icon: fab fa-github 
+          #       url: https://github.com/oscareduardolp6/Owl_Sales_Point_Back 
+          #       tooltip: Backend 
+          - title: "Entrenador de memoria"
+            content: "He creado un proyecto de entrenamiento de memoria para mejorar 
+            mi capacidad de retener información. 
+            El objetivo es recordar una lista de palabras en un orden específico y 
+            repetirlas en el mismo orden. El programa proporciona retroalimentación 
+            inmediata sobre la precisión de la repetición y permite al usuario actualizar 
+            la lista de palabras en caso de dificultad. Esta herramienta puede ser 
+            útil para cualquier persona que desee mejorar su capacidad de retener 
+            información y es fácil de usar"
+            image: /images/projects/memory-trainer-7.png
+            featured: 
+              name: Demo 
+              link: /memory-project
+            badges: 
+              - "React"
+              - "CSS"
+              - "Valtio"
+            links: 
+              - icon: fab fa-github
+                url: https://github.com/oscareduardolp6/memory-project-stack-1
+                tooltip: Repository
+          - title: "API de palabras aleatorias"
+            content: "He creado una API de generación de palabras aleatorias en español utilizando Go. 
+            La API ofrece una forma sencilla y efectiva de mejorar el vocabulario en español, 
+            generando palabras aleatorias en español que los usuarios pueden utilizar en diferentes contextos. 
+            La API es de código abierto y está disponible para cualquier persona que desee utilizarla y 
+            mejorar su español de manera gratuita"
+            image: https://imgs.search.brave.com/44nPwKMaZRb3vGjLO04gcs1xxgAxSd8YgH1UpJxj6bI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNDQ4/Mjc0Mi5qcGc
+            featured: 
+              name: Demo 
+              link: https://random-spanish-words.onrender.com/
+            badges: 
+              - "Go" 
+            links: 
+              - icon: fab fa-github
+                url: https://github.com/oscareduardolp6/random-spanish-words-api-go
+                tooltip: Repository
+            
+      contact: 
+        title: Contacto
+        enable: true 
+        content: No dudes en contactarme :) 
+        email: oscareduardolp6@gmail.com
+        btnName: Email
+        whatsapp: 524773010668
+      footer: 
       recentPosts: true
       recentPostTitle: Entradas Recientes
       socialNetworks:
