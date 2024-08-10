@@ -37,11 +37,11 @@ Menus:
     #   title: Logros
     #   url: /#achievements
     #   wight: 1
-    - identifier: contact
-      name: Contacto
-      title: Contacto
-      url: /#contact
-      wight: 2
+    # - identifier: contact
+    #   name: Contacto
+    #   title: Contacto
+    #   url: /#contact
+    #   wight: 2
     - identifier: projects
       name: Proyectos
       title: Proyectos
@@ -83,11 +83,11 @@ languages:
             title: Education 
             url: /en/#education
             wight: 3
-          - identifier: contact 
-            name: Contact 
-            title: Contact 
-            url: /en/#contact
-            wight: 4
+          # - identifier: contact 
+          #   name: Contact 
+          #   title: Contact 
+          #   url: /en/#contact
+          #   wight: 4
           - identifier: projects 
             name: Projects 
             title: Projects 
@@ -322,13 +322,19 @@ languages:
                 url: https://github.com/oscareduardolp6/random-spanish-words-api-go
                 tooltip: Repository
       contact:
-        enable: true 
+        enable: false
         content: Get in Touch 
         email: oscareduardolp6@gmail.com
         btnName: Email
         whatsapp: 524773010668
       footer: 
-      recentPosts: true 
+        # recentPosts: true 
+        recentPosts:
+          path: "blogs"
+          count: 3
+          title: Recent Posts
+          enable: true
+          disableFeaturedImage: false
       socialNetworks:
         github: https://github.com/oscareduardolp6
         linkedin: https://www.linkedin.com/in/oscareduardolp6/
@@ -583,14 +589,18 @@ languages:
             
       contact: 
         title: Contacto
-        enable: true 
+        enable: false
         content: No dudes en contactarme :) 
         email: oscareduardolp6@gmail.com
         btnName: Email
         whatsapp: 524773010668
       footer: 
-      recentPosts: true
-      recentPostTitle: Entradas Recientes
+        recentPosts:
+          path: "blogs"
+          count: 3
+          title: Artículos recientes
+          enable: true
+          disableFeaturedImage: false
       socialNetworks:
         github: https://github.com/oscareduardolp6
         linkedin: https://www.linkedin.com/in/oscareduardolp6/
@@ -602,11 +612,13 @@ params:
   title: "Oscar López"
   favicon: "/favicon.ico"
   useBootstrapCDN: true 
+  animate: true
 
   theme: 
     disableThemeToggle: false
 
   navbar: 
+    disableSearch: true
     menus: 
       disableAbout: true
       disableExperience: true
