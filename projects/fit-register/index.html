@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fit Register</title>
+  <script type="module" crossorigin src="/assets/index-Bc5JLcin.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BgD6CZeT.css">
+</head>
+
+<body>
+  <aside>
+    <button id="exercises-location">Cargar ubicación del vault</button>
+    <button id="clear-storage">Limpiar registros de ejercicio</button>
+    <button id="export-to-json">Exportar a json</button>
+    <button id="script-button">Generar archivos de registro</button>
+    <fieldset id="fileInput-group">
+      <label for="fileInput">Cargar archivo de ejercicios: </label>
+      <input type="file" id="fileInput" accept=".json">
+    </fieldset>
+  </aside>
+
+  <main>
+    <form>
+      <section>
+        <h2>Ejercicios</h2>
+        <fieldset>
+          <label for="exercise-name">Nombre del ejercicio:</label>
+          <input autocomplete="off" type="text" name="exercise-name" id="exercise-name" list="exercises-names" />
+          <datalist id="exercises-names"></datalist>
+        </fieldset>
+        <fieldset>
+          <label for="variation">Variación:</label>
+          <input type="text" name="variation" id="variation">
+        </fieldset>
+      </section>
+
+
+      <section class="exercise-register-container">
+        <label for="unilateral" class="check">
+          Unilateral
+          <input type="checkbox" name="unilateral" id="unilateral">
+        </label>
+        <button type="button" id="add-set">Agregar Serie</button>
+        <fieldset id="sets">
+        </fieldset>
+        <button type="submit">Finalizar</button>
+      </section>
+
+    </form>
+
+  </main>
+
+
+</body>
+
+</html>
