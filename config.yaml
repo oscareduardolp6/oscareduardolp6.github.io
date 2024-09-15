@@ -236,6 +236,7 @@ languages:
               - <a href="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf" download="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf">Frontend Hexagonal Architecture Curse 🔗</a> 
               - <a href="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf" download="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf">Domain Model: Value Objects Curse 🔗</a> 
               - <a href="/docs/Certifications/Codely/principios-solid-aplicados.pdf" download="/docs/Certifications/Codely/principios-solid-aplicados.pdf">SOLID Applied Curse 🔗</a> 
+              - <a href="/docs/Certifications/Codely/diseno-de-infraestructura-rabbitmq-como-cola-de-mensajeria.pdf" download="/docs/Certifications/Codely/diseno-de-infraestructura-rabbitmq-como-cola-de-mensajeria.pdf">Infrastructure Design With RabbitMQ 🔗</a> 
       achievements: 
         enable: false 
         items: 
@@ -500,6 +501,7 @@ languages:
               - <a href="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf" download="/docs/Certifications/Codely/arquitectura-hexagonal-en-frontend.pdf">Curso Arquitectura Hexagonal en Frontend 🔗</a> 
               - <a href="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf" download="/docs/Certifications/Codely/modelado-del-dominio-value-objects.pdf">Curso Modelado del dominio con Value Objects 🔗</a> 
               - <a href="/docs/Certifications/Codely/principios-solid-aplicados.pdf" download="/docs/Certifications/Codely/principios-solid-aplicados.pdf">Curso Principios SOLID aplicados 🔗</a> 
+              - <a href="/docs/Certifications/Codely/diseno-de-infraestructura-rabbitmq-como-cola-de-mensajeria.pdf" download="/docs/Certifications/Codely/diseno-de-infraestructura-rabbitmq-como-cola-de-mensajeria.pdf">Diseño de infraestructura con RabbitMQ 🔗</a> 
       achievements: 
         title: "Logros"
         enable: false 
