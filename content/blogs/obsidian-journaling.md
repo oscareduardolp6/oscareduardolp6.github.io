@@ -112,7 +112,7 @@ Me gusta tener presente las cosas por las que estoy *agradecido*, no de una form
 Me esfuerzo mucho en llenar esta parte lo mejor posible cada día. Además, después puedo *recolectar* todas las cosas en un *Tablero de agradecimientos* que me recuerda, en *conjunto*, todas las cosas por las que estoy agradecido.  
 Es muy útil para los *días complicados*.  
 
-<img src="/images/articles/obsidian-journaling/image-recognitions.png" alt="Renderizado de mi resumen de ejercicios" style="max-width: 100%; margin-bottom: 1em">
+<img src="/images/articles/obsidian-journaling/image-recognitions.png" alt="Renderizado de mi listado de agradecimientos" style="max-width: 100%; margin-bottom: 1em">
 
 #### ✅ Anti Todo List  
 
