@@ -606,9 +606,8 @@ languages:
       socialNetworks:
         github: https://github.com/oscareduardolp6
         linkedin: https://www.linkedin.com/in/oscareduardolp6/
-        # twitter: https://twitter.com
         instagram: https://www.instagram.com/oscar_lp6/
-        # facebook: https://facebook.comg
+        
 
 params: 
   title: "Oscar López"
