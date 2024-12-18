@@ -1,6 +1,6 @@
 ---
 title: '🏗️ `Is` Methods'
-date: 2024-12-13
+date: 2024-12-18
 draft: false
 author: 'Oscar López'
 image: /images/articles/is-methods/cover.png
