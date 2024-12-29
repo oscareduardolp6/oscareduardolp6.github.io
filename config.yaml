@@ -7,6 +7,15 @@ sitemap:
   changefreq: monthly 
   priority: 0.5
 
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
 Paginate: 3
 disqusShortname: oscarlp6
 enableRobotsTXT: true
@@ -43,12 +52,18 @@ Menus:
       title: Blog posts 
       url: /blogs
       weight: 5 
+    - identifier: technologies
+      name: Tecnologias
+      title: Tecnologías
+      url: /#about
+      wight: 2
       
 defaultContentLanguage: es
 
 languages: 
   en: 
     languageName: English
+    languageCode: "en-us"
     weight: 2 
     Menus: 
       main: 
@@ -84,11 +99,16 @@ languages:
         intro: "Hi, I'm"
         title: "Oscar Lopez"
         subtitle: "Fullstack web developer"
-        content: "I'm a web developer specializing in corporate, industrial, and back-office solutions. My main focus is to create solutions that bring value to users. With my experience and skills in web development, I can help your company achieve its technological goals. My work speaks for itself, and I'm confident I can offer you quality solutions that meet your needs. If you're looking for a web developer with experience and a user-centered approach, I'm the right choice for your project."
+        content: |- 
+          With over 5 years of experience in .NET, Angular, and microservices design. 
+          I specialize in building scalable, event-driven architectures, applying best development practices to 
+          deliver efficient, secure, and maintainable solutions. My expertise combines deep knowledge of both 
+          backend and frontend development with process optimization skills, ensuring that every project meets 
+          business goals and exceeds technical expectations.
         image: https://media.licdn.com/dms/image/v2/D4E03AQHRKw1W6NV5Lw/profile-displayphoto-shrink_800_800/B4EZPXu_oOHsAg-/0/1734491241602?e=1741219200&v=beta&t=jFO4Oz7FJH90ifxGx1pS2iYsAfci2006fOa7TbLmQhQ
         roundImage: true
         button:
-          enable: true
+          enable: false
           name: "Resume"
           url: "/docs/Resume.pdf"
           download: true 
@@ -101,7 +121,7 @@ languages:
       about: 
         enable: true
         title: "About me"
-        image: "/images/me.jpg"
+        # image: "/images/me.jpg"
         content: |-
           Born in *Naucalpan, Estado de México*, for a time I resided in *Monterrey, Nuevo Léon* and the last **nine years** I've lived in *León, Guanajuato*. 
 
@@ -123,44 +143,26 @@ languages:
       experience: 
         enable: true 
         items: 
-          - job: "Web Developer"
-            company: "Educafin"
-            date: "November 2019 - December 2021"
-            info: 
+          - job: ".NET & Web Developer"
+            company: "HDI Seguros"
+            companyUrl: "https://www.hdi.com.mx/"
+            date: "August 2022 - Present"
+            info:
               enable: false 
             featuredLink: 
-              enable: false 
-            content: |-
-              Part of the **SOS Inspira** platform development team, designed 
-              to manage the mentoring program. 
-
-              Build with `PHP` & `CodeIgniter`, `MariaDB` as *Database* And `Vue` 
-              on the *Frontend*. 
-
-              I was also involved in the initial development of the platform 
-              **JuventudesGTO**, designed for the research area. 
-          - job: "Software Project Developer"
-            company: "Proservicio"
-            companyUrl: "https://www.serviacero.com/proservicio"
-            date: "October 2020 - March 2022"
-            featuredLink: 
-              enable: false
-            info: 
               enable: false 
             content: |- 
-              Part of the **Software Project Development Team**. 
-              A company focused in generate software to both *web* and *custom 
-              modules* for the *ERP*, specifically designed for each specialitie 
-              of the [Serviacero Group](https://serviacero.com/). 
-
-              I worked in the development of the *Carta Porte(SAT)* project. 
-
-              **Technologies** 
-              - .NET 
-              - React With Typescript 
-              - Progress 4GL 
-              - SQL  
-
+              - Developed new features for the Damages section, enhancing existing microservices and building new ones from scratch using ASP.NET and .NET Core.
+              - Built a web application with Angular, deploying microservices using Azure pipelines and Docker containers.
+              - Key Projects:
+                  - **Encryption and tokenization service for credit card data**: Acted as a reverse proxy for two existing services. Implemented with a folder structure inspired by hexagonal architecture to ensure layer decoupling, adhering to strict security regulations.
+                  - **Integration with commercial partners**: Developed endpoints for enterprise-level clients who managed their own frontends. Designed a modular system to handle subtle differences between modalities:
+                      - Utilized the **Chain of Responsibility pattern** for validations, enabling dynamic configuration to address differences without impacting shared logic.
+                      - Followed REST best practices, providing clear error codes and messages.
+                      - Documented endpoints using **Swagger** annotations for ease of integration.
+                  - Outcomes included the reuse of validations for other modalities, simplicity in adding new validations, and faster onboarding of commercial partners by prioritizing developer-friendly practices.
+              - Utilized **RabbitMQ as a distributed event bus** to manage communication between microservices efficiently.
+              - Experience with design patterns, architecture, and version control using Git.
           - job: ".Net & Winforms Developer"
             company: "IROX IT"
             companyUrl: "http://iroxit.com/"
@@ -170,28 +172,44 @@ languages:
             featuredLink: 
               enable: false 
             content: |- 
-              Developer in the *Supplier Assistance team*. 
-
-              Centered on  developing modules for the internal management
-              application of providers. 
-
-              Made with *frontend* in *Winforms* and *backend* in *.Net Services*. 
-          - job: ".NET & Web Developer"
-            company: "IROX IT"
-            companyUrl: "http://iroxit.com/"
-            date: "August 2022 - Present"
-            info:
+              - Developed modules for managing company relationships with suppliers using .NET and WinForms.
+              - Optimized complex stored procedures, achieving significant performance improvements through data cleaning, validation, and restructuring of large datasets.
+              - Led the development of internal tools for analyzing and optimizing stored procedures:
+                  - The backend, developed in **Go**, performed advanced analysis of stored procedures, while the frontend, built with **Electron**, provided a user-friendly and functional interface. This solution enhanced team efficiency by reducing troubleshooting times for SQL procedures.
+          - job: "Software Project Developer"
+            company: "Proservicio"
+            companyUrl: "https://www.serviacero.com/proservicio"
+            date: "October 2020 - March 2022"
+            featuredLink: 
+              enable: false
+            info: 
+              enable: false 
+            content: |- 
+              - Managed 2-3 concurrent projects, each lasting 3-6 months.
+              - Led projects from scratch or using pre-existing designs, working in sprints to deliver incremental updates and gather user feedback.
+              - Resolved incidents and improved operational processes by developing tools or refining workflows.
+              - Key projects included:
+                  - **Carta Porte:** Integrated the company's ERP with a fiscal stamping service, a challenging project completed in 6 months.
+                  - **Performance Dashboard:** Created a performance measurement dashboard using _React_ with _TypeScript_, introducing these technologies to the team and training members in their use.
+                  - **Git Server Implementation:** Set up an internal Git server using _Bonobo_ with server- and client-side hooks, standardizing version control and training the team in Git best practices.
+              - Trained my team in **TypeScript**, **React**, and **Git**, ensuring efficient usage and adherence to best practices.
+              - Technical expertise in .NET, Git, Git hooks, and Linux server administration.
+              - Strong communication skills, presenting project updates and addressing inquiries from the corporate team.
+          - job: "Web Developer"
+            company: "Educafin"
+            date: "November 2019 - October 2020"
+            info: 
               enable: false 
             featuredLink: 
               enable: false 
-            content: |- 
-              Currently part of the **Damage** team at **[HDI Seguros](https://www.hdi.com.mx/)** as 
-              developer from the consulting firm [IROX IT](http://iroxit.com/). 
-
-              I develop modules & functionalities for the *internal web application of 
-              quoting and issuance policies*. 
-
-              *Microservices* in `.NET` and *frontend* in `Angular`. 
+            content: |-
+              - **SOS Inspira**
+              - Developed both frontend and backend using PHP with CodeIgniter, Vue.js, and MariaDB.
+              - Built a platform to manage interactions between mentors and mentees, including scheduling, evidence tracking, and record-keeping.
+              - Generated Excel files for business intelligence purposes.
+              - Implemented key features, organized team tasks, and provided expertise in Git.
+              - Technical skills in PHP, CodeIgniter, user requirements analysis, feature-based development, and SCRUM methodology.
+              - Soft skills in idea presentation and team leadership, ensuring continuous delivery and user feedback.
       education: 
         enable: true 
         title: Education 
@@ -316,10 +334,9 @@ languages:
         btnName: Email
         whatsapp: 524773010668
       footer: 
-        # recentPosts: true 
         recentPosts:
           path: "blogs"
-          count: 2
+          count: 5
           title: Recent Posts
           enable: true
           disableFeaturedImage: false
@@ -332,6 +349,7 @@ languages:
 
   es: 
     languageName: Spanish 
+    languageCode: "es-MX"
     weight: 1
     params:
       hero: 
@@ -339,11 +357,16 @@ languages:
         intro: "Hola, soy"
         title: "Oscar López"
         subtitle: "Desarrollador web fullstack"
-        content: "Soy un desarrollador web especializado en soluciones corporativas, industriales y de back office. Con mi experiencia y habilidades en el desarrollo web, puedo ayudar a su empresa a alcanzar sus objetivos tecnológicos. Mi trabajo habla por sí mismo, y estoy seguro de que puedo ofrecerle soluciones de calidad que satisfagan sus necesidades. Si estás buscando un desarrollador web con experiencia y un enfoque centrado en el usuario, estoy seguro de que soy la elección correcta para tu proyecto" 
+        content: |-
+          Con más de 5 años de experiencia en .NET, Angular y diseño de microservicios. 
+          Me especializo en crear arquitecturas escalables y dirigidas por eventos, aplicando buenas prácticas 
+          de desarrollo para garantizar soluciones eficientes, seguras y mantenibles. 
+          Mi enfoque combina un conocimiento profundo de backend y frontend con habilidades en optimización de procesos, 
+          asegurando que cada proyecto cumpla con los objetivos de negocio y supere las expectativas técnicas.
         image: https://media.licdn.com/dms/image/v2/D4E03AQHRKw1W6NV5Lw/profile-displayphoto-shrink_800_800/B4EZPXu_oOHsAg-/0/1734491241602?e=1741219200&v=beta&t=jFO4Oz7FJH90ifxGx1pS2iYsAfci2006fOa7TbLmQhQ
         roundImage: true
         button:
-          enable: true
+          enable: false
           name: "CV"
           url: "/docs/CV.pdf"
           download: true 
@@ -356,76 +379,70 @@ languages:
       about: 
         enable: true
         title: "Sobre mí"
-        image: "/images/me.jpg"
+        # image: "/images/me.jpg"
         content: |- 
-          Originario de *Naucalpan, Estado de México*, viví un tiempo en 
-          *Monterrey, Nuevo León* y desde hace **catorce años** vivo en *León, Guanajuato*. 
+          Originario de Naucalpan, Estado de México, viví un tiempo en Monterrey, Nuevo León, y desde hace 14 años resido en León, Guanajuato. 
+          Desde joven, mis padres me inculcaron el interés por comprender los detalles de cómo funcionan las cosas, desde las computadoras 
+          hasta las mentes humanas, lo que me llevó a mi gran pasión: el desarrollo de software. 
+          Mi objetivo profesional 
+          es crear software escalable y de calidad en tecnologías modernas que me emocionen y me enseñen.
+          ### Cómo puedo contribuir a tu empresa:
+          - **Innovación y optimización**: Identifico y propongo mejoras técnicas que aumenten la eficiencia y reduzcan la complejidad.
+          - **Colaboración efectiva**: Promuevo un enfoque basado en argumentos sólidos, fomentando un entorno donde las mejores ideas 
+          prosperen.
+          - **Mantenibilidad y escalabilidad**: Diseño soluciones claras y bien estructuradas para garantizar su sostenibilidad a largo plazo.
 
-          Desde jovén mis padres me inculcaron el interés por saber los detalles de 
-          cómo funcionan las cosas, desde las *computadoras* hasta las 
-          *mentes de las personas*, llevandome a mis pasiones, 
-          el *desarrollo de software* y el *ilusionismo*, este último dandome una 
-          excusa para conectar con las personas y transmitir emociones.
+          ---
 
-          Mi **objetivo profesional** es crear software escalable y de calidad en 
-          tecnologías *modernas* que me divertan y enseñen.
+          Busco oportunidades donde pueda aportar mis conocimientos y experiencia para construir soluciones tecnológicas que marquen la 
+          diferencia, mientras continúo aprendiendo y creciendo profesionalmente.
+
+          ### Tecnologías
 
         skills: 
           enable: true 
-          title: "Técnologías"
+          title: ""
           items: 
-            - "Patrones de diseño"
-            - "React (Con Typescript)"
+            - ".NET"
+            - "Microservicios"
+            - "Azure"
+            - "AWS"
+            - "React"
             - "Angular / AngularJS"
-            - ".NET con C# & VB"
-            - "Node / Deno / Bun"
-            - "Python"
+            - "C#"
+            - "Typescript / Javascript"
             - "SQL / Transact-SQL"
             - "Go"
-            - "Electron"
-            - "Next.js"
-            # - "Typescript / Javascript"
+            - "RabbitMQ" 
+            - "Arquitectura dirigida por eventos" 
       experience: 
         enable: true 
         title: Experiencia
         items: 
-          - job: "Desarrollador Web"
-            company: "Educafin"
-            date: "Noviembre 2019 - Diciembre 2021"
+          - job: "Desarrollador .NET y Web"
+            company: "HDI Seguros"
+            companyUrl: "https://www.hdi.com.mx/"
+            date: "Agosto 2022 - Presente"
             info: 
               enable: false 
             featuredLink: 
               enable: false 
             content: |-
-              Parte del equipo de desarrollo de la plataforma **SOS Inspira**, 
-              pensada para llevar el control del programa de mentores
-              y mentorados de la institución, construido en `PHP` con `Code Igniter`, 
-              `MariaDB` para base de datos y `Vue` en el 
-              *frontend*. 
+              - **Desarrollé nuevas características para la sección de Daños**, mejorando los microservicios existentes y creando nuevos desde cero utilizando **ASP.NET** y **.NET Core**.
+              - **Construí una aplicación web con Angular**, desplegando microservicios mediante **Azure Pipelines** y contenedores **Docker**.
 
-              También estuve involucrado en el desarrollo inicial de la plataforma 
-              **JuventudesGTO**, pensada para el área de
-              investigación .
-          - job: "Desarrollador de proyectos de Software" 
-            company: "Proservicio"
-            companyUrl: "https://www.serviacero.com/proservicio"
-            date: "Octubre 2020 - Marzo 2022"
-            featuredLink:
-              enable: false
-            info: 
-              enable: false 
-            content: |- 
-              Fui parte del equipo de desarrollo de proyectos, la empresa enfocada
-              en generar software tanto *web*, como módulos para el *ERP* personalizados 
-              diseñados a la medida para cada una de las especialidades del [Grupo Serviacero](https://serviacero.com/). 
+              **Proyectos clave**:
+              - **Servicio de encriptación y tokenización para datos de tarjetas de crédito**: Actué como un proxy inverso para dos servicios existentes. Implementé una estructura de carpetas inspirada en la arquitectura hexagonal para asegurar el desacoplamiento de capas, cumpliendo con estrictas regulaciones de seguridad.
+              - **Integración con socios comerciales**: Desarrollé endpoints para clientes empresariales que gestionaban sus propios frontends. Diseñé un sistema modular para manejar diferencias sutiles entre las modalidades:
+                - Utilicé el **patrón Chain of Responsibility** para las validaciones, habilitando una configuración dinámica para abordar diferencias sin afectar la lógica compartida.
+                - Seguí las mejores prácticas de REST, proporcionando códigos de error claros y mensajes.
+                - Documenté los endpoints utilizando **Swagger** para facilitar la integración.
+                - Resultados: Reutilización de validaciones para otras modalidades, simplicidad en la adición de nuevas validaciones y un onboarding más rápido de socios comerciales al priorizar prácticas amigables para desarrolladores.
 
-              Participé en el desarrollo de integración del sistema de emisión de *Carta Porte*. 
+              - **Utilicé RabbitMQ como un bus de eventos distribuido** para gestionar la comunicación eficiente entre microservicios.
 
-              **Tecnologías** 
-              - .Net 
-              - React con Typescript 
-              - Progress 4GL 
-              - SQL 
+              - **Experiencia en patrones de diseño, arquitectura y control de versiones utilizando Git.**
+
           - job: "Desarrollador .NET & Winforms"
             company: "IROX IT"
             companyUrl: "http://iroxit.com/"
@@ -435,26 +452,49 @@ languages:
             featuredLink: 
               enable: false 
             content: |- 
-              Desarrollador en el equipo de *Asistencia a proveedores* 
-              para **[HDI Seguros](https://www.hdi.com.mx/)**.
+              - **Desarrollé módulos para gestionar las relaciones de la empresa con proveedores** utilizando **.NET** y **WinForms**.
+              - **Optimicé procedimientos almacenados complejos**, logrando mejoras significativas en el rendimiento mediante la limpieza de datos, validación y reestructuración de grandes conjuntos de datos.
+              - **Lideré el desarrollo de herramientas internas para analizar y optimizar procedimientos almacenados**:
+                - El backend, desarrollado en **Go**, realizó análisis avanzados de los procedimientos almacenados, mientras que el frontend, construido con **Electron**, proporcionó una interfaz funcional y fácil de usar. Esta solución mejoró la eficiencia del equipo al reducir los tiempos de resolución de problemas en procedimientos SQL.
 
-              Enfocado a desarrollar módulos para el aplicativo interno de gestión 
-              a proveedores, manejando  el *frontend* con `Winforms` y el *backend* 
-              con servicios desarrollados en `.NET`. 
-          - job: "Desarrollador .NET y Web"
-            company: "IROX IT"
-            companyUrl: "http://iroxit.com/"
-            date: "Agosto 2022 - Presente"
+          - job: "Desarrollador de proyectos de Software" 
+            company: "Proservicio"
+            companyUrl: "https://www.serviacero.com/proservicio"
+            date: "Octubre 2020 - Marzo 2022"
+            featuredLink:
+              enable: false
+            info: 
+              enable: false 
+            content: |- 
+              - **Gestioné de 2 a 3 proyectos simultáneos**, cada uno con una duración de 3 a 6 meses.
+              - **Lideré proyectos desde cero o utilizando diseños preexistentes**, trabajando en sprints para entregar actualizaciones incrementales y recopilar retroalimentación de los usuarios.
+              - **Resolví incidentes y mejoré los procesos operativos** mediante el desarrollo de herramientas o la optimización de flujos de trabajo.
+
+              **Proyectos clave**
+              - **Carta Porte**: Integré el ERP de la empresa con un servicio de timbrado fiscal, un proyecto desafiante completado en 6 meses.
+              - **Dashboard de Desempeño**: Creé un tablero de medición de desempeño utilizando **React** con **TypeScript**, introduciendo estas tecnologías al equipo y capacitando a los miembros en su uso.
+              - **Implementación de un Servidor Git**: Configuré un servidor Git interno utilizando **Bonobo** con hooks del lado del servidor y del cliente, estandarizando el control de versiones y capacitando al equipo en las mejores prácticas de Git.
+
+              - **Capacité a mi equipo en TypeScript, React y Git**, asegurando un uso eficiente y adherencia a las mejores prácticas.
+              - **Experiencia técnica en .NET, Git, hooks de Git y administración de servidores Linux.**
+              - **Fuertes habilidades de comunicación**, presentando actualizaciones de proyectos y atendiendo consultas del equipo corporativo.
+
+          - job: "Desarrollador Web"
+            company: "Educafin"
+            date: "Noviembre 2019 - Octubre 2020"
             info: 
               enable: false 
             featuredLink: 
               enable: false 
             content: |-
-              Actualmente soy parte del equipo de **Daños** de **[HDI Seguros](https://www.hdi.com.mx/)**
-              desde la consultora [IROX IT](http://iroxit.com/). 
+              **SOS Inspira**
+              - **Desarrollé tanto el frontend como el backend** utilizando **PHP con CodeIgniter**, **Vue.js** y **MariaDB**.
+              - **Construí una plataforma para gestionar interacciones** entre mentores y aprendices, incluyendo programación de actividades, seguimiento de evidencias y registro de información.
+              - **Generé archivos Excel** para propósitos de inteligencia de negocios.
+              - Implementé características clave, organicé tareas del equipo y proporcioné experiencia en Git.
+              - **Habilidades técnicas** en PHP, CodeIgniter, análisis de requisitos de usuario, desarrollo basado en funcionalidades y metodología SCRUM.
+              - **Habilidades blandas** en la presentación de ideas y liderazgo de equipo, asegurando entregas continuas y retroalimentación del usuario.
 
-              Participo desarrollando módulos y funcionalidades para la aplicación web interna de 
-              cotización y emisión de pólizas, *microservicios* en `.NET` y *frontend* en `Angular`. 
       education: 
         enable: true 
         title: Educación 
@@ -608,6 +648,9 @@ params:
 
   navbar: 
     disableSearch: true
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
     menus: 
       disableAbout: true
       disableExperience: true
@@ -615,3 +658,9 @@ params:
       disableProjects: true
       disableAchievements: true
       disableContact: false
+  
+  singlePages: 
+    socialShare: true
+    readTime: 
+      enable: true
+      content: min 
