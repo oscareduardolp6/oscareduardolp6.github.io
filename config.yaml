@@ -33,16 +33,6 @@ Menus:
       title: Educación
       url: /#education
       wight: 6
-    # - identifier: achievements
-    #   name: Logros
-    #   title: Logros
-    #   url: /#achievements
-    #   wight: 1
-    # - identifier: contact
-    #   name: Contacto
-    #   title: Contacto
-    #   url: /#contact
-    #   wight: 2
     - identifier: projects
       name: Proyectos
       title: Proyectos
