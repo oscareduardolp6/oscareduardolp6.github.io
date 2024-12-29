@@ -9,6 +9,7 @@ sitemap:
 
 Paginate: 3
 disqusShortname: oscarlp6
+enableRobotsTXT: true
 
 markup: 
   goldmark: 
@@ -59,40 +60,35 @@ languages:
   en: 
     languageName: English
     weight: 2 
+    Menus: 
+      main: 
+        - identifier: blog 
+          name: Blog
+          title: Blog posts 
+          url: /en/blogs
+          weight: 5 
+        - identifier: about 
+          name: About me 
+          title: About me 
+          url: /en/#about
+          wight: 1
+        - identifier: experience 
+          name: Experience 
+          title: Experience 
+          url: /en/#experience
+          wight: 2
+        - identifier: education 
+          name: Education 
+          title: Education 
+          url: /en/#education
+          wight: 3
+        - identifier: projects 
+          name: Projects 
+          title: Projects 
+          url: /en/#projects
+          wight: 5
     params: 
       description: Oscar Lopez Portfolio
-      Menus: 
-        main: 
-          - identifier: blog 
-            name: Blog
-            title: Blog posts 
-            url: /en/blogs
-            weight: 5 
-          - identifier: about 
-            name: About me 
-            title: About me 
-            url: /en/#about
-            wight: 1
-          - identifier: experience 
-            name: Experience 
-            title: Experience 
-            url: /en/#experience
-            wight: 2
-          - identifier: education 
-            name: Education 
-            title: Education 
-            url: /en/#education
-            wight: 3
-          # - identifier: contact 
-          #   name: Contact 
-          #   title: Contact 
-          #   url: /en/#contact
-          #   wight: 4
-          - identifier: projects 
-            name: Projects 
-            title: Projects 
-            url: /en/#projects
-            wight: 5
       hero: 
         enable: true
         intro: "Hi, I'm"
@@ -332,7 +328,7 @@ languages:
         # recentPosts: true 
         recentPosts:
           path: "blogs"
-          count: 3
+          count: 2
           title: Recent Posts
           enable: true
           disableFeaturedImage: false
@@ -599,7 +595,7 @@ languages:
       footer: 
         recentPosts:
           path: "blogs"
-          count: 3
+          count: 5
           title: Artículos recientes
           enable: true
           disableFeaturedImage: false
@@ -626,4 +622,4 @@ params:
       disableEducation: true
       disableProjects: true
       disableAchievements: true
-      disableContact: true
+      disableContact: false
