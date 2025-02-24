@@ -57,7 +57,7 @@ LIMIT 1
 
 #### 👀 Nota resultado
 
-![[Pasted image 20250224011858.png]]
+<img src="/images/articles/obsidian-restaurants-rating/note-view.png" alt="Vista renderizada de la nota de Mcdonalds" style="max-width: 100%; margin-bottom: 1em">
 
 Ahora vamos a *desglosar* cada una de las partes de la nota.
 
