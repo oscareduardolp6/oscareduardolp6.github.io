@@ -58,7 +58,7 @@ LIMIT 1
 
 #### 👀 Example Note
 
-![[Pasted image 20250224011858.png]]
+<img src="/images/articles/obsidian-restaurants-rating/note-view.png" alt="Renderizado de mi resumen de ejercicios" style="max-width: 100%; margin-bottom: 1em">
 
 Now let's *break down* each part of the note.
 
