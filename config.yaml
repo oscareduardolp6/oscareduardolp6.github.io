@@ -620,7 +620,7 @@ languages:
       contact: 
         title: Contacto
         enable: false
-        content: No dudes en contactarme :) 
+        content: No dudes en contactarme 
         email: oscareduardolp6@gmail.com
         btnName: Email
         whatsapp: 524773010668
