@@ -318,18 +318,36 @@ languages:
             The API is open source and available for anyone who wishes to use it to improve their Spanish vocabulary 
             for free"
             image: https://imgs.search.brave.com/44nPwKMaZRb3vGjLO04gcs1xxgAxSd8YgH1UpJxj6bI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNDQ4/Mjc0Mi5qcGc
-            featured: 
-              name: Demo 
+            featured:
+              name: Demo
               link: https://random-spanish-words.onrender.com/
-            badges: 
-              - "Go" 
-            links: 
+            badges:
+              - "Go"
+            links:
               - icon: fab fa-github
                 url: https://github.com/oscareduardolp6/random-spanish-words-api-go
                 tooltip: Repository
+          - title: "Hilo - Personal Finance Tracker"
+            content: "A personal expense tracker built as a single React component/SPA,
+            with a UI in Spanish (Mexico) and MXN currency. It tracks account balances,
+            income and expenses by category, recent transactions, and installment purchases
+            (compras a meses / MSI). It's designed as a backend-free app that keeps all data
+            stored locally in the browser."
+            image: https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80
+            featured:
+              name: Demo
+              link: https://oscareduardolp6.github.io/hilo-finanzas/
+            badges:
+              - "React"
+              - "Vite"
+              - "Javascript"
+            links:
+              - icon: fab fa-github
+                url: https://github.com/oscareduardolp6/hilo-finanzas
+                tooltip: Repository
       contact:
         enable: false
-        content: Get in Touch 
+        content: Get in Touch
         email: oscareduardolp6@gmail.com
         btnName: Email
         whatsapp: 524773010668
@@ -607,17 +625,36 @@ languages:
             La API es de código abierto y está disponible para cualquier persona que desee utilizarla y 
             mejorar su español de manera gratuita"
             image: https://imgs.search.brave.com/44nPwKMaZRb3vGjLO04gcs1xxgAxSd8YgH1UpJxj6bI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNDQ4/Mjc0Mi5qcGc
-            featured: 
-              name: Demo 
+            featured:
+              name: Demo
               link: https://random-spanish-words.onrender.com/
-            badges: 
-              - "Go" 
-            links: 
+            badges:
+              - "Go"
+            links:
               - icon: fab fa-github
                 url: https://github.com/oscareduardolp6/random-spanish-words-api-go
                 tooltip: Repository
-            
-      contact: 
+          - title: "Hilo - Control de gastos personal"
+            content: "Una aplicación para el control de gastos personales, construida
+            como un único componente de React (SPA), con interfaz en español de México
+            y moneda MXN. Permite llevar el saldo de cuentas, ingresos y gastos por
+            categoría, movimientos recientes y compras a meses (MSI). Está diseñada
+            como una app sin backend que guarda toda la información localmente en el
+            navegador."
+            image: https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80
+            featured:
+              name: Demo
+              link: https://oscareduardolp6.github.io/hilo-finanzas/
+            badges:
+              - "React"
+              - "Vite"
+              - "Javascript"
+            links:
+              - icon: fab fa-github
+                url: https://github.com/oscareduardolp6/hilo-finanzas
+                tooltip: Repository
+
+      contact:
         title: Contacto
         enable: false
         content: No dudes en contactarme 
