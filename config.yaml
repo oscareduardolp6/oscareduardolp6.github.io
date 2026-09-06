@@ -105,7 +105,7 @@ languages:
           deliver efficient, secure, and maintainable solutions. My expertise combines deep knowledge of both 
           backend and frontend development with process optimization skills, ensuring that every project meets 
           business goals and exceeds technical expectations.
-        image: https://media.licdn.com/dms/image/v2/D4E03AQHRKw1W6NV5Lw/profile-displayphoto-shrink_800_800/B4EZPXu_oOHsAg-/0/1734491241602?e=1741219200&v=beta&t=jFO4Oz7FJH90ifxGx1pS2iYsAfci2006fOa7TbLmQhQ
+        image: /images/profile-photo.jpg
         roundImage: true
         button:
           enable: false
@@ -381,7 +381,7 @@ languages:
           de desarrollo para garantizar soluciones eficientes, seguras y mantenibles. 
           Mi enfoque combina un conocimiento profundo de backend y frontend con habilidades en optimización de procesos, 
           asegurando que cada proyecto cumpla con los objetivos de negocio y supere las expectativas técnicas.
-        image: https://media.licdn.com/dms/image/v2/D4E03AQHRKw1W6NV5Lw/profile-displayphoto-shrink_400_400/B4EZPXu_oOHsAk-/0/1734491241602?e=1779321600&v=beta&t=YwmvkXglMVhkeisrbSO2_eMZuBJAmEF_HevEIzrTq_Q
+        image: /images/profile-photo.jpg
         roundImage: true
         button:
           enable: false
