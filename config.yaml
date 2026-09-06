@@ -140,9 +140,30 @@ languages:
             - "Python"
             - "SQL / Transact-SQL"
             - "Go"
-      experience: 
-        enable: true 
-        items: 
+      experience:
+        enable: true
+        items:
+          - job: "Microsoft Full Stack Engineer"
+            company: "EY (Ernst & Young) / Hexaware Technologies"
+            companyUrl: "https://www.ey.com/"
+            date: "February 2025 - Present"
+            info:
+              enable: false
+            featuredLink:
+              enable: false
+            content: |-
+              **Consultant / Contractor** on the *Conflict of Interest & Portfolio Disclosure System* — an enterprise SaaS platform built for EY's global workforce (~400,000 target users, stress-tested to 10,000 peak concurrent users) to declare personal investment portfolios and flag conflicts of interest. The platform enforces regulatory consistency rules across all holdings, integrating with an internal back-office configuration tool that drives dynamic forms and validation logic.
+
+              **Key highlights:**
+              - **Owned the Validations Module end-to-end** — one of the most architecturally complex components. Led design, implementation, and optimization in direct collaboration with the product team to model intricate cross-section business rules ensuring internal consistency across entire portfolios.
+              - **Rewrote the validation engine** from an O(n²) query-loop to an O(n) constant-time lookup strategy, cutting module load time from 2–3 minutes to under 200 ms — a 90%+ reduction that made the experience effectively instantaneous.
+              - **Implemented an incremental cache and an Azure Event Grid subscriber** that pre-computes an AST (stored as JSON) on validation creation, converted to an Intermediate Representation of boolean expressions evaluated via pre-computed lookup dictionaries, eliminating real-time DB pressure during user sessions.
+              - **Led API security hardening** after an external penetration test surfaced a 100+ page report of findings. Designed a triage and resolution workflow using GitHub Copilot agents: extracted findings into a condensed PDF, grouped vulnerabilities by resolution vector, generated Markdown fix plans, and scripted env-variable-driven HTTP test scripts to verify fixes — all delivered within the sprint.
+              - **Built admin-side entity editing using Value Objects** to enforce domain invariants and prevent inconsistent states, maintaining high throughput with zero regressions on concurrent access.
+              - **Contributed to endpoint performance optimization for production go-live**: composite indexes on high-traffic tables, materialized data projections, Redis cache layers, and query-scoped data retrieval to meet the 10,000 concurrent-user SLA.
+              - Delivered **3–4 features per 3-week sprint** alongside bug fixes, consistently demoing directly to business stakeholders at sprint close.
+
+              **Tech stack:** .NET 8, C#, Angular 19, CQRS, MediatR, Azure (Blob Storage, Event Grid, Application Insights, Redis Cache), GitHub Actions CI/CD, SQL Server, JWT Auth, Swagger, GitHub Copilot (Plan/Agent/Ask modes).
           - job: ".NET & Web Developer"
             company: "HDI Seguros"
             companyUrl: "https://www.hdi.com.mx/"
@@ -433,10 +454,31 @@ languages:
             - "Go"
             - "RabbitMQ" 
             - "Arquitectura dirigida por eventos" 
-      experience: 
-        enable: true 
+      experience:
+        enable: true
         title: Experiencia
-        items: 
+        items:
+          - job: "Microsoft Full Stack Engineer"
+            company: "EY (Ernst & Young) / Hexaware Technologies"
+            companyUrl: "https://www.ey.com/"
+            date: "Febrero 2025 - Presente"
+            info:
+              enable: false
+            featuredLink:
+              enable: false
+            content: |-
+              **Consultor / Contractor** en el *Sistema de Declaración de Conflictos de Interés y Portafolios* — una plataforma SaaS empresarial construida para la fuerza laboral global de EY (~400,000 usuarios objetivo, probada bajo estrés hasta 10,000 usuarios concurrentes en pico) para declarar portafolios de inversión personales y detectar conflictos de interés. La plataforma aplica reglas regulatorias de consistencia sobre todas las posiciones, integrándose con una herramienta interna de back-office que genera formularios dinámicos y lógica de validación.
+
+              **Puntos clave:**
+              - **Fui responsable del Módulo de Validaciones de extremo a extremo** — uno de los componentes más complejos a nivel arquitectónico. Lideré el diseño, la implementación y la optimización en colaboración directa con el equipo de producto para modelar reglas de negocio intrincadas entre secciones que garantizan la consistencia interna de portafolios completos.
+              - **Reescribí el motor de validación** de un bucle de consultas O(n²) a una estrategia de búsqueda O(n) en tiempo constante, reduciendo el tiempo de carga del módulo de 2–3 minutos a menos de 200 ms — una reducción de más del 90% que hizo la experiencia prácticamente instantánea.
+              - **Implementé una caché incremental y un suscriptor de Azure Event Grid** que precalcula un AST (almacenado como JSON) al crear una validación, convertido a una Representación Intermedia de expresiones booleanas evaluadas mediante diccionarios de búsqueda precalculados, eliminando la presión sobre la base de datos en tiempo real durante las sesiones de usuario.
+              - **Lideré el endurecimiento de seguridad de la API** tras un pentest externo que generó un reporte de más de 100 páginas de hallazgos. Diseñé un flujo de triage y resolución usando agentes de GitHub Copilot: condensé los hallazgos en un PDF, agrupé las vulnerabilidades por vector de resolución, generé planes de corrección en Markdown y automaticé scripts de pruebas HTTP basados en variables de entorno para verificar las correcciones — todo entregado dentro del sprint.
+              - **Construí la edición de entidades del lado administrativo usando Value Objects** para hacer cumplir invariantes de dominio y evitar estados inconsistentes, manteniendo alto rendimiento con cero regresiones en accesos concurrentes.
+              - **Contribuí a la optimización de rendimiento de endpoints para el go-live a producción**: índices compuestos en tablas de alto tráfico, proyecciones de datos materializadas, capas de caché con Redis y recuperación de datos acotada por consulta para cumplir el SLA de 10,000 usuarios concurrentes.
+              - Entregué **3–4 características por sprint de 3 semanas** junto con correcciones de errores, presentando demos directamente a los stakeholders de negocio al cierre de cada sprint.
+
+              **Stack tecnológico:** .NET 8, C#, Angular 19, CQRS, MediatR, Azure (Blob Storage, Event Grid, Application Insights, Redis Cache), GitHub Actions CI/CD, SQL Server, JWT Auth, Swagger, GitHub Copilot (modos Plan/Agent/Ask).
           - job: "Desarrollador .NET y Web"
             company: "HDI Seguros"
             companyUrl: "https://www.hdi.com.mx/"
